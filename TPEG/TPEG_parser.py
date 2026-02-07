@@ -96,6 +96,12 @@ def parse_TPEG_binary(bytestring: bytes, fname: str) -> None:
     TPEGappFrameDict[ 0] = TPEG_SNI.TPEG_SNI_frame_continuation
     TPEGappFrameDict[ 5] = TPEG_TEC.TPEG_TEC_frame_continuation
     TPEGappFrameDict[15] = TPEG_EAW.TPEG_EAW_frame_continuation
+    # Register TFP parser (AID=7)
+    try:
+        from TpegApps import TPEG_TFP
+        TPEGappFrameDict[7] = TPEG_TFP.TPEG_TFP_frame_continuation
+    except Exception as e:
+        TPEG_log_error(f"TFP parser registration failed: {e}")
 
     TPEGstring = TPEG_string(bytestring)
 
