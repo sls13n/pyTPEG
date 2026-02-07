@@ -1,1 +1,0 @@
-This directory contains only CAP messages from DWD, the German Weather Service.
