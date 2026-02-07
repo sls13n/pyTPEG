@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:kml xmlns:ns0="http://www.opengis.net/kml/2.2" xmlns:ns1="http://www.google.com/kml/ext/2.2">
+  <ns0:Document>
+    <ns0:name>CAP messages</ns0:name>
+    <ns0:Style id="downArrowIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/pal4/icon28.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="trafficIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/cabs.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="trafficWithAccidentIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/caution.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="globeIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/pal3/icon19.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="gasStationIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/gas_stations.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+      <ns0:LineStyle>
+        <ns0:width>2</ns0:width>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="standardIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/paddle/blu-diamond.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+      <ns0:LineStyle>
+        <ns0:width>2</ns0:width>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="transPoly">
+      <ns0:LineStyle>
+        <ns0:width>8</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>000000ff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transRedPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d0000ff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transGreenPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d00ff00</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transYellowPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d00ffff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transBluePoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7dff0000</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="BlackLine">
+      <ns0:LineStyle>
+        <ns0:width>6</ns0:width>
+        <ns0:color>ff000000</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="RedLine">
+      <ns0:LineStyle>
+        <ns0:width>5</ns0:width>
+        <ns0:color>ff0000ff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="OrangeLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff00a5ff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="YellowLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff00ffff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="DarkGreenLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff009933</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="GreenLine">
+      <ns0:LineStyle>
+        <ns0:width>3</ns0:width>
+        <ns0:color>ff00ff00</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="WhiteLine">
+      <ns0:LineStyle>
+        <ns0:width>8</ns0:width>
+        <ns0:color>ffffffff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="TecLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ffffffff</ns0:color>
+        <ns1:outerColor>dddddddd</ns1:outerColor>
+        <ns1:outerWidth>1.0</ns1:outerWidth>
+        <ns1:labelVisibility>1</ns1:labelVisibility>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Placemark>
+      <ns0:name>2.49.0.0.528.0.NL.181013021225.2_FX_VLI</ns0:name>
+      <ns0:description>..headline = Wind - Waarschuwingen voor Vlissingen - Nederland
+.....event = Moderate Wind warning
+.......area = Vlissingen
+
+ALERT -- (Component type=CAP_alert) 
+  Elements 
+  +identifier = 2.49.0.0.528.0.NL.181013021225.2_FX_VLI
+  +sender     = procesbewaker@knmi.nl
+  +sent       = 2018-10-13T00:12:25+00:00
+  +status     = Actual
+  +msgType    = Update
+  +source     = KNMI
+  +scope      = Public
+  +references = procesbewaker@knmi.nl,2.49.0.0.528.0.NL.181012231625.2_FX_VLI,2018-10-12T21:16:25+00:00
+  INFO -- (Component type=CAP_info) 
+    Elements 
+    +language     = ne-NL
+    +category     = Met
+    +event        = Moderate Wind warning
+    +responseType = Monitor
+    +urgency      = Future
+    +severity     = Moderate
+    +certainty    = Likely
+    +effective    = 2018-10-13T00:12:25+00:00
+    +onset        = 2018-10-12T08:30:00+00:00
+    +expires      = 2018-10-13T08:30:27+00:00
+    +senderName   = KNMI Koninklijk Nederlands Meteorologisch Instituut
+    +headline     = Wind - Waarschuwingen voor Vlissingen - Nederland
+    +description  = zuid 6 bft
+    +contact      = procesbewaker@knmi.nl
+    +web          : 1 occurrence
+    Parameters 
+    +parameter
+        valueName = awareness_type
+        value     = 1; Wind
+    +parameter
+        valueName = awareness_level
+        value     = 2; yellow; Moderate
+    AREA -- (Component type=CAP_area) 
+      Elements 
+      +areaDesc = Vlissingen
+      +polygon  = 51.7804988814,3.86127542005 51.9981234874,3.38011521913 51.8662438783,3.20687939077 51.6689908761,2.94955108287 51.6427607633,2.90695377291 51.4478064044,3.34221378387 51.3686952627,3.36617137422 51.3491954905,4.23547128004 51.3748954778,4.24257139667 51.3850953434,3.81537133414 51.4398953394,3.57167140178 51.4601454021,3.53122152384 51.5138953086,3.45152148049 51.5281952983,3.4334712457 51.5395203046,3.43722115403 51.7424954306,3.7910710545 51.7804988814,3.86127542005
+      Parameters 
+      +geocode
+          valueName = EMMA_ID
+          value     = NL801
+  INFO -- (Component type=CAP_info) 
+    Elements 
+    +language     = en-GB
+    +category     = Met
+    +event        = Moderate Wind warning
+    +responseType = Monitor
+    +urgency      = Future
+    +severity     = Moderate
+    +certainty    = Likely
+    +effective    = 2018-10-13T00:12:25+00:00
+    +onset        = 2018-10-12T08:30:00+00:00
+    +expires      = 2018-10-13T08:30:27+00:00
+    +senderName   = KNMI Royal Netherlands Meteorological Institute
+    +headline     = Wind - Warnings for Vlissingen - The Netherlands
+    +description  = south 6 bft
+    +contact      = procesbewaker@knmi.nl
+    +web          : 1 occurrence
+    Parameters 
+    +parameter
+        valueName = awareness_type
+        value     = 1; Wind
+    +parameter
+        valueName = awareness_level
+        value     = 2; yellow; Moderate
+    AREA -- (Component type=CAP_area) 
+      Elements 
+      +areaDesc = Vlissingen
+      +polygon  = 51.7804988814,3.86127542005 51.9981234874,3.38011521913 51.8662438783,3.20687939077 51.6689908761,2.94955108287 51.6427607633,2.90695377291 51.4478064044,3.34221378387 51.3686952627,3.36617137422 51.3491954905,4.23547128004 51.3748954778,4.24257139667 51.3850953434,3.81537133414 51.4398953394,3.57167140178 51.4601454021,3.53122152384 51.5138953086,3.45152148049 51.5281952983,3.4334712457 51.5395203046,3.43722115403 51.7424954306,3.7910710545 51.7804988814,3.86127542005
+      Parameters 
+      +geocode
+          valueName = EMMA_ID
+          value     = NL801
+---- End ALERT -- (Component type=CAP_alert) ----
+</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#transRedPoly</ns0:styleUrl>
+      <ns0:Polygon>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:outerBoundaryIs>
+          <ns0:LinearRing>
+            <ns0:coordinates>
+		 3.86127542005,51.7804988814 
+		 3.38011521913,51.9981234874 
+		 3.20687939077,51.8662438783 
+		 2.94955108287,51.6689908761 
+		 2.90695377291,51.6427607633 
+		 3.34221378387,51.4478064044 
+		 3.36617137422,51.3686952627 
+		 4.23547128004,51.3491954905 
+		 4.24257139667,51.3748954778 
+		 3.81537133414,51.3850953434 
+		 3.57167140178,51.4398953394 
+		 3.53122152384,51.4601454021 
+		 3.45152148049,51.5138953086 
+		 3.4334712457,51.5281952983 
+		 3.43722115403,51.5395203046 
+		 3.7910710545,51.7424954306 
+		 3.86127542005,51.7804988814 
+		</ns0:coordinates>
+          </ns0:LinearRing>
+        </ns0:outerBoundaryIs>
+      </ns0:Polygon>
+    </ns0:Placemark>
+  </ns0:Document>
+</ns0:kml>

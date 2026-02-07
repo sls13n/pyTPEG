@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- This is a Common Alerting Protocol (CAP) message issued by Germany's National Meteorological Service, Deutscher Wetterdienst (DWD). Visit https://www.dwd.de -->
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.276.0.DWD.PVW.1532417520000.46863352-8912-49ac-be85-d2f938e4c6b1.ENG</identifier>
+  <sender>CAP@dwd.de</sender>
+  <sent>2018-07-24T09:32:00+02:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <source>PVW</source>
+  <scope>Public</scope>
+  <code>id:2.49.0.1.276.0.DWD.PVW.1532417520000.46863352-8912-49ac-be85-d2f938e4c6b1</code>
+  <references>CAP@dwd.de,2.49.0.1.276.0.DWD.PVW.1532330700000.99ea6489-9ca5-40d4-a807-de38cc320208.ENG,2018-07-23T09:25:00+02:00</references>
+  <info>
+    <language>en-US</language>
+    <category>Health</category>
+    <event>Heat</event>
+    <responseType>Prepare</responseType>
+    <urgency>Immediate</urgency>
+    <severity>Minor</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>PROFILE_VERSION</valueName>
+      <value>2.1</value>
+    </eventCode>
+    <eventCode>
+      <valueName>LICENSE</valueName>
+      <value>Geobasisdaten: Copyright Bundesamt für Kartographie und Geodäsie, Frankfurt am Main, 2013</value>
+    </eventCode>
+    <eventCode>
+      <valueName>II</valueName>
+      <value>247</value>
+    </eventCode>
+    <eventCode>
+      <valueName>GROUP</valueName>
+      <value>HEAT</value>
+    </eventCode>
+    <eventCode>
+      <valueName>AREA_COLOR</valueName>
+      <value>204 153 255</value>
+    </eventCode>
+    <effective>2018-07-24T09:32:00+02:00</effective>
+    <onset>2018-07-24T11:00:00+02:00</onset>
+    <expires>2018-07-25T19:00:00+02:00</expires>
+    <senderName>Zentrum für Medizin-Meteorologische Forschung</senderName>
+    <headline>Official weather warning: Heat Warning</headline>
+    <description>The expected weather will bring high temperatures, relatively high humidity, low wind movement and intense short- and long-wave solar radiation in the next few days.</description>
+    <instruction>NOTE: be aware that this is an automatically generated product. The manually created original text warning is only available in German.It is issued by the DWD - Centre for Human Biometeorological Research (ZMMF) in Freiburg.</instruction>
+    <web>http://www.wettergefahren.de</web>
+    <contact>Deutscher Wetterdienst</contact>
+    <area>
+      <areaDesc>polygonal event area</areaDesc>
+      <polygon>53.91255,8.500589 53.912412,8.498514 53.913506,8.488501 53.91408,8.486836 53.917943,8.486834 53.923037,8.487837 53.927067,8.489688 53.929159,8.491363 53.931065,8.494464 53.931682,8.498688 53.928792,8.504314 53.925528,8.512703 53.922086,8.518216 53.917216,8.516095 53.915734,8.510007 53.91255,8.500589 53.91255,8.500589</polygon>
+      <altitude>0.0</altitude>
+      <ceiling>656.16798</ceiling>
+    </area>
+    <area>
+      <areaDesc>polygonal event area</areaDesc>
+      <polygon>53.954069,8.445682 53.950232,8.441873 53.948641,8.4375 53.946238,8.436198 53.944355,8.42887 53.945309,8.422488 53.947277,8.420337 53.951151,8.421446 53.952752,8.424751 53.952604,8.432071 53.953834,8.436888 53.957851,8.437992 53.96044,8.434836 53.963303,8.435721 53.96399,8.44413 53.961107,8.452952 53.959706,8.460073 53.957267,8.459304 53.95659,8.451474 53.954069,8.445682 53.954069,8.445682</polygon>
+      <altitude>0.0</altitude>
+      <ceiling>656.16798</ceiling>
+    </area>
+    <area>
+      <areaDesc>polygonal event area</areaDesc>
+      <polygon>53.731538,10.187092 53.709901,10.181037 53.712876,10.172822 53.675983,10.142819 53.66857,10.1722 53.655251,10.194772 53.639488,10.19014 53.633668,10.22161 53.61325,10.189751 53.584331,10.201841 53.576866,10.152143 53.5584,10.161541 53.521421,10.16427 53.513031,10.186028 53.519702,10.209322 53.495456,10.225643 53.496214,10.236715 53.480019,10.250001 53.461341,10.26687 53.454337,10.289792 53.442049,10.303894 53.449817,10.324664 53.433545,10.308145 53.418307,10.259396 53.395485,10.235446 53.399586,10.164426 53.415938,10.145475 53.426943,10.108492 53.451599,10.084131 53.464124,10.052232 53.429123,10.016443 53.420406,9.974881 53.4313,9.950644 53.419232,9.929206 53.44826,9.913707 53.457028,9.898194 53.430095,9.862734 53.448943,9.839231 53.469445,9.79989 53.493805,9.802879 53.492474,9.782651 53.504719,9.768388 53.543294,9.772375 53.55448,9.774792 53.557545,9.730027 53.564578,9.734756 53.582733,9.736339 53.602897,9.755475 53.618095,9.756927 53.627624,9.770322 53.610162,9.796089 53.59686,9.798704 53.584396,9.822749 53.598938,9.858778 53.60926,9.868766 53.621207,9.884054 53.634046,9.896437 53.65213,9.906674 53.652915,9.944484 53.650557,9.989447 53.680011,9.99841 53.67945,10.068969 53.697119,10.07046 53.70334,10.079423 53.706034,10.070835 53.720668,10.080998 53.713799,10.121412 53.738767,10.168567 53.731538,10.187092 53.731538,10.187092</polygon>
+      <altitude>0.0</altitude>
+      <ceiling>656.16798</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Hamburg</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>802000000</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>656.16798</ceiling>
+    </area>
+  </info>
+</alert>

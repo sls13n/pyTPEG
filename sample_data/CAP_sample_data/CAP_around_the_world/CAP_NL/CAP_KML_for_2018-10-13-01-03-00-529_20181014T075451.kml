@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:kml xmlns:ns0="http://www.opengis.net/kml/2.2" xmlns:ns1="http://www.google.com/kml/ext/2.2">
+  <ns0:Document>
+    <ns0:name>CAP messages</ns0:name>
+    <ns0:Style id="downArrowIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/pal4/icon28.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="trafficIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/cabs.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="trafficWithAccidentIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/caution.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="globeIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/pal3/icon19.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="gasStationIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/gas_stations.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+      <ns0:LineStyle>
+        <ns0:width>2</ns0:width>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="standardIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/paddle/blu-diamond.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+      <ns0:LineStyle>
+        <ns0:width>2</ns0:width>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="transPoly">
+      <ns0:LineStyle>
+        <ns0:width>8</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>000000ff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transRedPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d0000ff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transGreenPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d00ff00</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transYellowPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d00ffff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transBluePoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7dff0000</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="BlackLine">
+      <ns0:LineStyle>
+        <ns0:width>6</ns0:width>
+        <ns0:color>ff000000</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="RedLine">
+      <ns0:LineStyle>
+        <ns0:width>5</ns0:width>
+        <ns0:color>ff0000ff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="OrangeLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff00a5ff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="YellowLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff00ffff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="DarkGreenLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff009933</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="GreenLine">
+      <ns0:LineStyle>
+        <ns0:width>3</ns0:width>
+        <ns0:color>ff00ff00</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="WhiteLine">
+      <ns0:LineStyle>
+        <ns0:width>8</ns0:width>
+        <ns0:color>ffffffff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="TecLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ffffffff</ns0:color>
+        <ns1:outerColor>dddddddd</ns1:outerColor>
+        <ns1:outerWidth>1.0</ns1:outerWidth>
+        <ns1:labelVisibility>1</ns1:labelVisibility>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Placemark>
+      <ns0:name>2.49.0.0.528.0.NL.181013021225.2_FX_ROT</ns0:name>
+      <ns0:description>..headline = Wind - Waarschuwingen voor Rottum - Nederland
+.....event = Moderate Wind warning
+.......area = Rottum
+
+ALERT -- (Component type=CAP_alert) 
+  Elements 
+  +identifier = 2.49.0.0.528.0.NL.181013021225.2_FX_ROT
+  +sender     = procesbewaker@knmi.nl
+  +sent       = 2018-10-13T00:12:25+00:00
+  +status     = Actual
+  +msgType    = Update
+  +source     = KNMI
+  +scope      = Public
+  +references = procesbewaker@knmi.nl,2.49.0.0.528.0.NL.181012231625.2_FX_ROT,2018-10-12T21:16:25+00:00
+  INFO -- (Component type=CAP_info) 
+    Elements 
+    +language     = ne-NL
+    +category     = Met
+    +event        = Moderate Wind warning
+    +responseType = Monitor
+    +urgency      = Future
+    +severity     = Moderate
+    +certainty    = Likely
+    +effective    = 2018-10-13T00:12:25+00:00
+    +onset        = 2018-10-12T08:30:00+00:00
+    +expires      = 2018-10-13T08:30:27+00:00
+    +senderName   = KNMI Koninklijk Nederlands Meteorologisch Instituut
+    +headline     = Wind - Waarschuwingen voor Rottum - Nederland
+    +description  = zuid 6 bft
+    +contact      = procesbewaker@knmi.nl
+    +web          : 1 occurrence
+    Parameters 
+    +parameter
+        valueName = awareness_type
+        value     = 1; Wind
+    +parameter
+        valueName = awareness_level
+        value     = 2; yellow; Moderate
+    AREA -- (Component type=CAP_area) 
+      Elements 
+      +areaDesc = Rottum
+      +polygon  = 53.5411950522,6.54551821154 53.8882745491,6.38445904294 53.8440529651,6.11203053974 53.7887005539,5.56409829399 53.7641452051,5.41307458768 53.4407837486,5.58971570962 53.4614028806,5.61461954304 53.4600107645,5.70024103361 53.4637883515,5.85246509999 53.4603591432,5.91309485175 53.4597466028,5.97160636417 53.4830753922,6.0444808357 53.4907276075,6.10606079393 53.5069330312,6.15122928843 53.5014446967,6.21301148075 53.5082601677,6.31479205499 53.5202523527,6.42172145354 53.538869789,6.43828542667 53.5544986104,6.44214650518 53.5458809366,6.4849732575 53.540493705,6.51334089058 53.5411950522,6.54551821154
+      Parameters 
+      +geocode
+          valueName = EMMA_ID
+          value     = NL805
+  INFO -- (Component type=CAP_info) 
+    Elements 
+    +language     = en-GB
+    +category     = Met
+    +event        = Moderate Wind warning
+    +responseType = Monitor
+    +urgency      = Future
+    +severity     = Moderate
+    +certainty    = Likely
+    +effective    = 2018-10-13T00:12:25+00:00
+    +onset        = 2018-10-12T08:30:00+00:00
+    +expires      = 2018-10-13T08:30:27+00:00
+    +senderName   = KNMI Royal Netherlands Meteorological Institute
+    +headline     = Wind - Warnings for Rottum - The Netherlands
+    +description  = south 6 bft
+    +contact      = procesbewaker@knmi.nl
+    +web          : 1 occurrence
+    Parameters 
+    +parameter
+        valueName = awareness_type
+        value     = 1; Wind
+    +parameter
+        valueName = awareness_level
+        value     = 2; yellow; Moderate
+    AREA -- (Component type=CAP_area) 
+      Elements 
+      +areaDesc = Rottum
+      +polygon  = 53.5411950522,6.54551821154 53.8882745491,6.38445904294 53.8440529651,6.11203053974 53.7887005539,5.56409829399 53.7641452051,5.41307458768 53.4407837486,5.58971570962 53.4614028806,5.61461954304 53.4600107645,5.70024103361 53.4637883515,5.85246509999 53.4603591432,5.91309485175 53.4597466028,5.97160636417 53.4830753922,6.0444808357 53.4907276075,6.10606079393 53.5069330312,6.15122928843 53.5014446967,6.21301148075 53.5082601677,6.31479205499 53.5202523527,6.42172145354 53.538869789,6.43828542667 53.5544986104,6.44214650518 53.5458809366,6.4849732575 53.540493705,6.51334089058 53.5411950522,6.54551821154
+      Parameters 
+      +geocode
+          valueName = EMMA_ID
+          value     = NL805
+---- End ALERT -- (Component type=CAP_alert) ----
+</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#transYellowPoly</ns0:styleUrl>
+      <ns0:Polygon>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:outerBoundaryIs>
+          <ns0:LinearRing>
+            <ns0:coordinates>
+		 6.54551821154,53.5411950522 
+		 6.38445904294,53.8882745491 
+		 6.11203053974,53.8440529651 
+		 5.56409829399,53.7887005539 
+		 5.41307458768,53.7641452051 
+		 5.58971570962,53.4407837486 
+		 5.61461954304,53.4614028806 
+		 5.70024103361,53.4600107645 
+		 5.85246509999,53.4637883515 
+		 5.91309485175,53.4603591432 
+		 5.97160636417,53.4597466028 
+		 6.0444808357,53.4830753922 
+		 6.10606079393,53.4907276075 
+		 6.15122928843,53.5069330312 
+		 6.21301148075,53.5014446967 
+		 6.31479205499,53.5082601677 
+		 6.42172145354,53.5202523527 
+		 6.43828542667,53.538869789 
+		 6.44214650518,53.5544986104 
+		 6.4849732575,53.5458809366 
+		 6.51334089058,53.540493705 
+		 6.54551821154,53.5411950522 
+		</ns0:coordinates>
+          </ns0:LinearRing>
+        </ns0:outerBoundaryIs>
+      </ns0:Polygon>
+    </ns0:Placemark>
+  </ns0:Document>
+</ns0:kml>

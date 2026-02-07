@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:alert xmlns:ns0="urn:oasis:names:tc:emergency:cap:1.2">
+  <ns0:identifier> urn:oid:2.49.0.3.1.0.MET9</ns0:identifier>
+  <ns0:sender> urn:oid:2.49.0.2.1</ns0:sender>
+  <ns0:sent>2009-11-20T14:00:00-00:00</ns0:sent>
+  <ns0:status>Actual</ns0:status>
+  <ns0:msgType>Alert</ns0:msgType>
+  <ns0:scope>Public</ns0:scope>
+  <ns0:info>
+    <ns0:category>Geo</ns0:category>
+    <ns0:event>FIRE</ns0:event>
+    <ns0:response>Avoid</ns0:response>
+    <ns0:urgency>Immediate</ns0:urgency>
+    <ns0:severity>Moderate</ns0:severity>
+    <ns0:certainty>Likely</ns0:certainty>
+    <ns0:effective>2009-11-20T14:00:00-00:00</ns0:effective>
+    <ns0:expires>2009-11-20T14:30:00-00:00</ns0:expires>
+    <ns0:senderName>EUMETSAT</ns0:senderName>
+    <ns0:headline>Fire detection report</ns0:headline>
+    <ns0:description> Fire detection. This is a computer generated report and has not been reviewed by a human.</ns0:description>
+    <ns0:area>
+      <ns0:areaDesc>List of detected fires (latitude, longitude, radius)</ns0:areaDesc>
+      <ns0:circle> 10.230,20.660 1.847 </ns0:circle>
+      <ns0:circle> 10.229,20.629 1.548 </ns0:circle>
+      <ns0:circle> 10.258,20.631 1.547 </ns0:circle>
+      <ns0:circle> 10.960,1.735 1.547 </ns0:circle>
+      <ns0:circle> 10.960,1.708 1.547 </ns0:circle>
+      <ns0:circle> 10.988,1.708 1.928 </ns0:circle>
+      <ns0:circle> 11.224,21.050 2.100 </ns0:circle>
+      <ns0:circle> 11.253,21.084 2.102 </ns0:circle>
+    </ns0:area>
+    <ns0:web>http://oiswww.eumetsat.org/IPPS/html/MSG/PRODUCTS/FIR</ns0:web>
+  </ns0:info>
+</ns0:alert>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+	<identifier>2.49.0.0.724.0.ES.181013195623.136234472</identifier>
+	<sender>http://www.aemet.es/es/eltiempo/prediccion/avisos</sender>
+	<sent>2018-10-13T19:56:23+00:00</sent>
+	<status>Actual</status>
+	<msgType>Alert</msgType>
+	<scope>Public</scope>
+	<info>
+		<language>es-ES</language>
+		<category>Met</category>
+		<event>Orange Lluvia Warning</event>
+		<responseType>Prepare</responseType>
+		<urgency>Immediate</urgency>
+		<severity>Severe</severity>
+		<certainty>Likely</certainty>
+		<effective>2018-10-13T22:00:00+00:00</effective>
+		<onset>2018-10-13T22:00:00+00:00</onset>
+		<expires>2018-10-14T12:59:59+00:00</expires>
+		<senderName>AGENCIA ESTATAL DE METEOROLOGIA</senderName>
+		<headline>Orange Lluvia Warning issued from for España - León </headline>
+		<description>ing Text!.</description>
+		<instruction>ESTÉ PREPARADO frente a alteraciones, daños estructurales y riesgo de daños personales causados por árboles arrancados y objetos arrastrados por el viento. Son posibles interrupciones del suministro de energía. </instruction>
+		<web>http://meteoalarm.eu/es_ES/0/0/ES006.html</web>
+		<parameter>
+			<valueName>awareness_level</valueName>
+			<value>3; orange; Severe</value>
+		</parameter>
+		<parameter>
+			<valueName>awareness_type</valueName>
+			<value>10; Rain</value>
+		</parameter>
+		<area>
+			<areaDesc>León</areaDesc>
+			<polygon>43.1664229078,-4.83850343445 43.2089053506,-4.85967855788 43.2392786625,-4.90876479386 43.1854839784,-5.02954944721 43.1612326515,-5.07943002456 43.1047821838,-5.13943569457 43.0503357862,-5.39147596977 42.9687641525,-5.79150253714 42.9143895754,-6.54001924698 42.9064236196,-6.78855739161 42.9155692761,-6.83481801784 42.5182984427,-7.08257436437 42.242044468,-6.77909138941 42.1976475084,-6.40905604414 42.1087314147,-5.61932140808 42.0943347606,-5.54313344665 42.0523629325,-5.38138002516 42.2910010178,-5.00090154654 42.3194978947,-4.94691242709 42.4518126917,-4.90156187215 42.6575514444,-4.89494267048 42.7257606721,-4.89303040909 42.7463372103,-4.93511857785 42.8289483957,-4.89466616375 42.9949006392,-4.78433014893 43.0083494615,-4.76813505383 43.1664229078,-4.83850343445</polygon>
+			<geocode>
+				<valueName>NUTS3</valueName>
+				<value>ES413</value>
+			</geocode>
+		</area>
+	</info>
+</alert>

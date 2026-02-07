@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:kml xmlns:ns0="http://www.opengis.net/kml/2.2" xmlns:ns1="http://www.google.com/kml/ext/2.2">
+  <ns0:Document>
+    <ns0:name>CAP messages</ns0:name>
+    <ns0:Style id="downArrowIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/pal4/icon28.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="trafficIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/cabs.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="trafficWithAccidentIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/caution.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="globeIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/pal3/icon19.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="gasStationIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/gas_stations.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+      <ns0:LineStyle>
+        <ns0:width>2</ns0:width>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="standardIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/paddle/blu-diamond.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+      <ns0:LineStyle>
+        <ns0:width>2</ns0:width>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="transPoly">
+      <ns0:LineStyle>
+        <ns0:width>8</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>000000ff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transRedPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d0000ff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transGreenPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d00ff00</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transYellowPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d00ffff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transBluePoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7dff0000</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="BlackLine">
+      <ns0:LineStyle>
+        <ns0:width>6</ns0:width>
+        <ns0:color>ff000000</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="RedLine">
+      <ns0:LineStyle>
+        <ns0:width>5</ns0:width>
+        <ns0:color>ff0000ff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="OrangeLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff00a5ff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="YellowLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff00ffff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="DarkGreenLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff009933</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="GreenLine">
+      <ns0:LineStyle>
+        <ns0:width>3</ns0:width>
+        <ns0:color>ff00ff00</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="WhiteLine">
+      <ns0:LineStyle>
+        <ns0:width>8</ns0:width>
+        <ns0:color>ffffffff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="TecLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ffffffff</ns0:color>
+        <ns1:outerColor>dddddddd</ns1:outerColor>
+        <ns1:outerWidth>1.0</ns1:outerWidth>
+        <ns1:labelVisibility>1</ns1:labelVisibility>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Placemark>
+      <ns0:name>2.49.0.0.554.0.severeweather.nz.20180118201933455.4</ns0:name>
+      <ns0:description>..headline = Heavy Rain Warning
+.....event = rain
+.......area = Northland, mainly about eastern areas.
+
+ALERT -- (Component type=CAP_alert) 
+  Elements 
+  +identifier = 2.49.0.0.554.0.severeweather.nz.20180118201933455.4
+  +sender     = www.metservice.com
+  +sent       = 2018-01-19T09:19:33+13:00
+  +status     = Actual
+  +msgType    = Update
+  +scope      = Public
+  +references = 
+www.metservice.com,2.49.0.0.554.0.severeweather.nz.20180118073504396.5,2018-01-18T20:35:04+13:00
+
+  INFO -- (Component type=CAP_info) 
+    Elements 
+    +category     = Met
+    +event        = rain
+    +responseType = Monitor
+    +urgency      = Immediate
+    +severity     = Moderate
+    +certainty    = Likely
+    +onset        = 2018-01-19T09:00:00+13:00
+    +expires      = 2018-01-19T14:00:00+13:00
+    +senderName   = Meteorological Service of New Zealand Limited
+    +headline     = Heavy Rain Warning
+    +description  = 
+Periods of northerly rain expected to ease early this afternoon. During this period a further 20 to 30 mm is expected to accumulate about the eastern areas and lesser amounts elsewhere. Peak intensities of 10 to 20mm/hr in isolated heavy falls.
+
+    +instruction  = 
+Note: A Severe Weather Warning or Watch means conditions are favourable for severe weather in and close to the indicated area. People in these areas should be on the lookout for threatening weather conditions and monitor for further updates from MetService.
+For information on preparing for and keeping safe during a storm, see the Civil Defence Get Ready Get Thru website.
+
+    +web          : 1 occurrence
+    Parameters 
+    +parameter
+        valueName = NextUpdate
+        value     = 2018-01-19T21:00:00+13:00
+    AREA -- (Component type=CAP_area) 
+      Elements 
+      +areaDesc = Northland, mainly about eastern areas.
+      +polygon  = 
+-36.345,173.996 -36.263,173.969 -36.012,173.771 -35.650,173.427
+-35.532,173.335 -35.390,173.206 -35.298,173.137 -35.206,173.048
+-35.171,173.038 -35.144,173.064 -35.155,173.114 -35.147,173.137
+-35.082,173.153 -35.033,173.147 -34.911,173.067 -34.648,172.843
+-34.480,172.625 -34.466,172.621 -34.447,172.654 -34.403,172.671
+-34.433,172.800 -34.401,172.853 -34.406,172.955 -34.376,173.018
+-34.392,173.051 -34.417,173.067 -34.425,173.064 -34.436,173.028
+-34.550,173.015 -34.591,173.018 -34.700,173.087 -34.757,173.170
+-34.798,173.190 -34.830,173.186 -34.863,173.239 -34.871,173.272
+-34.857,173.269 -34.849,173.275 -34.825,173.365 -34.792,173.365
+-34.765,173.404 -34.833,173.484 -34.868,173.484 -34.901,173.401
+-34.930,173.401 -34.963,173.431 -34.968,173.503 -34.939,173.510
+-34.898,173.560 -34.939,173.708 -34.976,173.731 -34.993,173.768
+-34.979,173.804 -34.979,173.834 -34.960,173.867 -34.974,173.880
+-34.998,173.873 -35.001,173.880 -34.993,173.893 -34.998,173.903
+-34.955,173.930 -34.968,173.986 -35.039,173.986 -35.058,173.953
+-35.071,173.953 -35.093,173.969 -35.101,173.999 -35.101,174.082
+-35.114,174.101 -35.133,174.115 -35.144,174.148 -35.168,174.154
+-35.190,174.121 -35.214,174.125 -35.233,174.088 -35.231,174.138
+-35.179,174.204 -35.195,174.260 -35.166,174.280 -35.150,174.352
+-35.212,174.352 -35.276,174.339 -35.328,174.409 -35.400,174.399
+-35.433,174.455 -35.516,174.498 -35.532,174.485 -35.543,174.491
+-35.538,174.511 -35.583,174.564 -35.650,174.554 -35.667,174.537
+-35.693,174.544 -35.707,174.587 -35.795,174.580 -35.835,174.607
+-35.865,174.607 -35.878,174.541 -35.868,174.504 -35.929,174.491 -36.007,174.524 -36.031,174.604 -36.071,174.630 -36.167,174.485 -36.268,174.323 -36.340,174.065 -36.345,173.996
+
+---- End ALERT -- (Component type=CAP_alert) ----
+</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#transYellowPoly</ns0:styleUrl>
+      <ns0:Polygon>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:outerBoundaryIs>
+          <ns0:LinearRing>
+            <ns0:coordinates>
+		 173.996,-36.345 
+		 173.969,-36.263 
+		 173.771,-36.012 
+		 173.427,-35.65 
+		 173.335,-35.532 
+		 173.206,-35.39 
+		 173.137,-35.298 
+		 173.048,-35.206 
+		 173.038,-35.171 
+		 173.064,-35.144 
+		 173.114,-35.155 
+		 173.137,-35.147 
+		 173.153,-35.082 
+		 173.147,-35.033 
+		 173.067,-34.911 
+		 172.843,-34.648 
+		 172.625,-34.48 
+		 172.621,-34.466 
+		 172.654,-34.447 
+		 172.671,-34.403 
+		 172.8,-34.433 
+		 172.853,-34.401 
+		 172.955,-34.406 
+		 173.018,-34.376 
+		 173.051,-34.392 
+		 173.067,-34.417 
+		 173.064,-34.425 
+		 173.028,-34.436 
+		 173.015,-34.55 
+		 173.018,-34.591 
+		 173.087,-34.7 
+		 173.17,-34.757 
+		 173.19,-34.798 
+		 173.186,-34.83 
+		 173.239,-34.863 
+		 173.272,-34.871 
+		 173.269,-34.857 
+		 173.275,-34.849 
+		 173.365,-34.825 
+		 173.365,-34.792 
+		 173.404,-34.765 
+		 173.484,-34.833 
+		 173.484,-34.868 
+		 173.401,-34.901 
+		 173.401,-34.93 
+		 173.431,-34.963 
+		 173.503,-34.968 
+		 173.51,-34.939 
+		 173.56,-34.898 
+		 173.708,-34.939 
+		 173.731,-34.976 
+		 173.768,-34.993 
+		 173.804,-34.979 
+		 173.834,-34.979 
+		 173.867,-34.96 
+		 173.88,-34.974 
+		 173.873,-34.998 
+		 173.88,-35.001 
+		 173.893,-34.993 
+		 173.903,-34.998 
+		 173.93,-34.955 
+		 173.986,-34.968 
+		 173.986,-35.039 
+		 173.953,-35.058 
+		 173.953,-35.071 
+		 173.969,-35.093 
+		 173.999,-35.101 
+		 174.082,-35.101 
+		 174.101,-35.114 
+		 174.115,-35.133 
+		 174.148,-35.144 
+		 174.154,-35.168 
+		 174.121,-35.19 
+		 174.125,-35.214 
+		 174.088,-35.233 
+		 174.138,-35.231 
+		 174.204,-35.179 
+		 174.26,-35.195 
+		 174.28,-35.166 
+		 174.352,-35.15 
+		 174.352,-35.212 
+		 174.339,-35.276 
+		 174.409,-35.328 
+		 174.399,-35.4 
+		 174.455,-35.433 
+		 174.498,-35.516 
+		 174.485,-35.532 
+		 174.491,-35.543 
+		 174.511,-35.538 
+		 174.564,-35.583 
+		 174.554,-35.65 
+		 174.537,-35.667 
+		 174.544,-35.693 
+		 174.587,-35.707 
+		 174.58,-35.795 
+		 174.607,-35.835 
+		 174.607,-35.865 
+		 174.541,-35.878 
+		 174.504,-35.868 
+		 174.491,-35.929 
+		 174.524,-36.007 
+		 174.604,-36.031 
+		 174.63,-36.071 
+		 174.485,-36.167 
+		 174.323,-36.268 
+		 174.065,-36.34 
+		 173.996,-36.345 
+		</ns0:coordinates>
+          </ns0:LinearRing>
+        </ns0:outerBoundaryIs>
+      </ns0:Polygon>
+    </ns0:Placemark>
+  </ns0:Document>
+</ns0:kml>

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:alert xmlns:ns0="urn:oasis:names:tc:emergency:cap:1.2">
+  <ns0:identifier>NOAA-NWS-ALERTS-FL125AC1F19234.ExtremeWindWarning.125AC1F1C754FL.TAEEWWTAE.c6fc59b113d789ea1e231a4f2d62baa2</ns0:identifier>
+  <ns0:sender>w-nws.webmaster@noaa.gov</ns0:sender>
+  <ns0:sent>2018-10-10T15:09:00-04:00</ns0:sent>
+  <ns0:status>Actual</ns0:status>
+  <ns0:msgType>Alert</ns0:msgType>
+  <ns0:scope>Public</ns0:scope>
+  <ns0:note>Alert for Gadsden; Holmes; Jackson; Washington (Florida) Issued by the National Weather Service</ns0:note>
+  <ns0:info>
+    <ns0:category>Met</ns0:category>
+    <ns0:event>Extreme Wind Warning</ns0:event>
+    <ns0:urgency>Immediate</ns0:urgency>
+    <ns0:severity>Extreme</ns0:severity>
+    <ns0:certainty>Observed</ns0:certainty>
+    <ns0:eventCode>
+      <ns0:valueName>SAME</ns0:valueName>
+      <ns0:value />
+    </ns0:eventCode>
+    <ns0:effective>2018-10-10T15:09:00-04:00</ns0:effective>
+    <ns0:expires>2018-10-10T16:45:00-04:00</ns0:expires>
+    <ns0:senderName>NWS Tallahassee (the Florida Peninsula)</ns0:senderName>
+    <ns0:headline>Extreme Wind Warning issued October 10 at 3:09PM EDT until October 10 at 4:45PM EDT by NWS Tallahassee</ns0:headline>
+    <ns0:description>The National Weather Service in Tallahassee has issued a
+* Extreme Wind Warning for...
+Jackson County in the Panhandle of Florida...
+Northwestern Gadsden County in Big Bend Florida...
+Eastern Holmes County in the Panhandle of Florida...
+Northeastern Washington County in the Panhandle of Florida...
+Southwestern Decatur County in southwestern Georgia...
+Seminole County in southwestern Georgia...
+* Until 445 PM EDT/345 PM CDT/.
+* At 308 PM EDT/208 PM CDT/, National Weather Service Doppler radar
+indicated extreme winds in excess of 115 mph, associated with the
+eyewall of Hurricane Michael, were continuing to move inland. THIS
+IS AN EXTREMELY DANGEROUS AND LIFE-THREATENING SITUATION!
+A Tornado Watch remains in effect until 500 PM EDT/400 PM CDT/ for
+Big Bend and the Panhandle of Florida...and southwestern Georgia. A
+Tornado Watch also remains in effect until 200 AM EDT/100 AM CDT/ for
+Big Bend Florida...and southwestern Georgia.</ns0:description>
+    <ns0:instruction>TAKE COVER NOW! Treat these imminent extreme winds as if a tornado
+was approaching and move immediately to the safe room in your
+shelter. Take action now to protect your life!
+The safest place to be during a major landfalling hurricane is in a
+reinforced interior room away from windows. Get under a table or
+other piece of sturdy furniture. Use mattresses, blankets or pillows
+to cover your head and body. Remain in place through the passage of
+these life-threatening conditions.</ns0:instruction>
+    <ns0:parameter>
+      <ns0:valueName>WMOHEADER</ns0:valueName>
+      <ns0:value />
+    </ns0:parameter>
+    <ns0:parameter>
+      <ns0:valueName>UGC</ns0:valueName>
+      <ns0:value>FLC039-059-063-133-GAC087-253</ns0:value>
+    </ns0:parameter>
+    <ns0:parameter>
+      <ns0:valueName>VTEC</ns0:valueName>
+      <ns0:value>/O.NEW.KTAE.EW.W.0003.181010T1909Z-181010T2045Z/</ns0:value>
+    </ns0:parameter>
+    <ns0:parameter>
+      <ns0:valueName>TIME...MOT...LOC</ns0:valueName>
+      <ns0:value>1908Z 207DEG 17KT 3044 8528</ns0:value>
+    </ns0:parameter>
+    <ns0:area>
+      <ns0:areaDesc>Gadsden; Holmes; Jackson; Washington</ns0:areaDesc>
+      <ns0:polygon>31,-85.52 30.99,-84.55 30.52,-84.8 30.54,-84.88 30.6,-84.88 30.67,-85.02 30.72,-85.66 31,-85.52</ns0:polygon>
+      <ns0:geocode>
+        <ns0:valueName>FIPS6</ns0:valueName>
+        <ns0:value>012039</ns0:value>
+      </ns0:geocode>
+      <ns0:geocode>
+        <ns0:valueName>FIPS6</ns0:valueName>
+        <ns0:value>012059</ns0:value>
+      </ns0:geocode>
+      <ns0:geocode>
+        <ns0:valueName>FIPS6</ns0:valueName>
+        <ns0:value>012063</ns0:value>
+      </ns0:geocode>
+      <ns0:geocode>
+        <ns0:valueName>FIPS6</ns0:valueName>
+        <ns0:value>012133</ns0:value>
+      </ns0:geocode>
+      <ns0:geocode>
+        <ns0:valueName>UGC</ns0:valueName>
+        <ns0:value>FLC039</ns0:value>
+      </ns0:geocode>
+      <ns0:geocode>
+        <ns0:valueName>UGC</ns0:valueName>
+        <ns0:value>FLC059</ns0:value>
+      </ns0:geocode>
+      <ns0:geocode>
+        <ns0:valueName>UGC</ns0:valueName>
+        <ns0:value>FLC063</ns0:value>
+      </ns0:geocode>
+      <ns0:geocode>
+        <ns0:valueName>UGC</ns0:valueName>
+        <ns0:value>FLC133</ns0:value>
+      </ns0:geocode>
+    </ns0:area>
+  </ns0:info>
+</ns0:alert>

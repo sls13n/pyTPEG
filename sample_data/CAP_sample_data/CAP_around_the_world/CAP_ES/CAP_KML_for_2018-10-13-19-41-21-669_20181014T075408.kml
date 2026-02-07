@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:kml xmlns:ns0="http://www.opengis.net/kml/2.2" xmlns:ns1="http://www.google.com/kml/ext/2.2">
+  <ns0:Document>
+    <ns0:name>CAP messages</ns0:name>
+    <ns0:Style id="downArrowIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/pal4/icon28.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="trafficIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/cabs.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="trafficWithAccidentIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/caution.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="globeIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/pal3/icon19.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="gasStationIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/gas_stations.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+      <ns0:LineStyle>
+        <ns0:width>2</ns0:width>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="standardIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/paddle/blu-diamond.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+      <ns0:LineStyle>
+        <ns0:width>2</ns0:width>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="transPoly">
+      <ns0:LineStyle>
+        <ns0:width>8</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>000000ff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transRedPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d0000ff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transGreenPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d00ff00</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transYellowPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d00ffff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transBluePoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7dff0000</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="BlackLine">
+      <ns0:LineStyle>
+        <ns0:width>6</ns0:width>
+        <ns0:color>ff000000</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="RedLine">
+      <ns0:LineStyle>
+        <ns0:width>5</ns0:width>
+        <ns0:color>ff0000ff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="OrangeLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff00a5ff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="YellowLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff00ffff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="DarkGreenLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff009933</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="GreenLine">
+      <ns0:LineStyle>
+        <ns0:width>3</ns0:width>
+        <ns0:color>ff00ff00</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="WhiteLine">
+      <ns0:LineStyle>
+        <ns0:width>8</ns0:width>
+        <ns0:color>ffffffff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="TecLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ffffffff</ns0:color>
+        <ns1:outerColor>dddddddd</ns1:outerColor>
+        <ns1:outerWidth>1.0</ns1:outerWidth>
+        <ns1:labelVisibility>1</ns1:labelVisibility>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Placemark>
+      <ns0:name>2.49.0.0.724.0.ES.181013202824.136237780</ns0:name>
+      <ns0:description>..headline = Yellow Lluvia Warning issued from for España - Mallorca 
+.....event = Yellow Lluvia Warning
+.......area = Mallorca
+
+ALERT -- (Component type=CAP_alert) 
+  Elements 
+  +identifier = 2.49.0.0.724.0.ES.181013202824.136237780
+  +sender     = www.aemet.es/es/eltiempo/prediccion/avisos
+  +sent       = 2018-10-13T20:28:24+00:00
+  +status     = Actual
+  +msgType    = Alert
+  +scope      = Public
+  INFO -- (Component type=CAP_info) 
+    Elements 
+    +language     = es-ES
+    +category     = Met
+    +event        = Yellow Lluvia Warning
+    +responseType = Prepare
+    +urgency      = Immediate
+    +severity     = Moderate
+    +certainty    = Likely
+    +effective    = 2018-10-14T19:00:00+00:00
+    +onset        = 2018-10-14T19:00:00+00:00
+    +expires      = 2018-10-15T06:59:59+00:00
+    +senderName   = AGENCIA ESTATAL DE METEOROLOGIA
+    +headline     = Yellow Lluvia Warning issued from for España - Mallorca 
+    +description  = ing Text!.
+    +instruction  = SEA CONSCIENTE de posibles inundaciones locales afectando a un pequeño número de propiedades, con alteraciones locales a actividades al aire libre. La conducción puede ser difícil debido a visibilidad reducida y a acuaplanin. 
+    +web          : 1 occurrence
+    Parameters 
+    +parameter
+        valueName = awareness_level
+        value     = 2; yellow; Moderate
+    +parameter
+        valueName = awareness_type
+        value     = 10; Rain
+    AREA -- (Component type=CAP_area) 
+      Elements 
+      +areaDesc = Mallorca
+      +polygon  = 39.7304277495,3.21769444989 39.7395533373,3.18661953928 39.754134715,3.15762692833 39.7728329232,3.13058781153 39.8005774701,3.10686417615 39.8811433661,3.06419051745 39.894791643,3.06359568591 39.9065473431,3.07523817175 39.9563133154,3.19459727875 39.9566107607,3.14817834947 39.9266075344,3.0031868213 39.8921654214,2.88774102981 39.819596198,2.69843234643 39.6014852451,2.34460111828 39.5892124329,2.33475835749 39.553453683,2.337083139 39.4646711857,2.46568427464 39.455230704,2.51135752838 39.4865972329,2.52792914328 39.511091072,2.739060877 39.3123478843,3.01611748205 39.275559536,3.03517015383 39.2694914895,3.05510804817 39.2751539674,3.07994949023 39.3342493075,3.17839651198 39.3623920412,3.22349107473 39.3870607747,3.25594480052 39.6721413843,3.44436688173 39.7161338806,3.46864608585 39.7477606979,3.45091351571 39.7688537223,3.35997556414 39.7603056336,3.31858712932 39.7436038979,3.30023485949 39.7347453129,3.27782681214 39.7287348684,3.24337397104 39.7304277495,3.21769444989
+      Parameters 
+      +geocode
+          valueName = NUTS3
+          value     = ES532
+---- End ALERT -- (Component type=CAP_alert) ----
+</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#transGreenPoly</ns0:styleUrl>
+      <ns0:Polygon>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:outerBoundaryIs>
+          <ns0:LinearRing>
+            <ns0:coordinates>
+		 3.21769444989,39.7304277495 
+		 3.18661953928,39.7395533373 
+		 3.15762692833,39.754134715 
+		 3.13058781153,39.7728329232 
+		 3.10686417615,39.8005774701 
+		 3.06419051745,39.8811433661 
+		 3.06359568591,39.894791643 
+		 3.07523817175,39.9065473431 
+		 3.19459727875,39.9563133154 
+		 3.14817834947,39.9566107607 
+		 3.0031868213,39.9266075344 
+		 2.88774102981,39.8921654214 
+		 2.69843234643,39.819596198 
+		 2.34460111828,39.6014852451 
+		 2.33475835749,39.5892124329 
+		 2.337083139,39.553453683 
+		 2.46568427464,39.4646711857 
+		 2.51135752838,39.455230704 
+		 2.52792914328,39.4865972329 
+		 2.739060877,39.511091072 
+		 3.01611748205,39.3123478843 
+		 3.03517015383,39.275559536 
+		 3.05510804817,39.2694914895 
+		 3.07994949023,39.2751539674 
+		 3.17839651198,39.3342493075 
+		 3.22349107473,39.3623920412 
+		 3.25594480052,39.3870607747 
+		 3.44436688173,39.6721413843 
+		 3.46864608585,39.7161338806 
+		 3.45091351571,39.7477606979 
+		 3.35997556414,39.7688537223 
+		 3.31858712932,39.7603056336 
+		 3.30023485949,39.7436038979 
+		 3.27782681214,39.7347453129 
+		 3.24337397104,39.7287348684 
+		 3.21769444989,39.7304277495 
+		</ns0:coordinates>
+          </ns0:LinearRing>
+        </ns0:outerBoundaryIs>
+      </ns0:Polygon>
+    </ns0:Placemark>
+  </ns0:Document>
+</ns0:kml>

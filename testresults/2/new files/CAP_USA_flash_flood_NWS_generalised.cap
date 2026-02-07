@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:alert xmlns:ns0="urn:oasis:names:tc:emergency:cap:1.2">
+  <ns0:identifier>NOAA-NWS-ALERTS-AL125ABCEEAA60.FlashFloodWarning.125ABCEEED2CAL.HUNFFWHUN.58ef93c268137511473f994351bcf88f</ns0:identifier>
+  <ns0:sender>w-nws.webmaster@noaa.gov</ns0:sender>
+  <ns0:sent>2018-09-26T06:44:00-05:00</ns0:sent>
+  <ns0:status>Actual</ns0:status>
+  <ns0:msgType>Alert</ns0:msgType>
+  <ns0:scope>Public</ns0:scope>
+  <ns0:note>Alert for Lawrence; Morgan (Alabama) Issued by the National Weather Service</ns0:note>
+  <ns0:info>
+    <ns0:category>Met</ns0:category>
+    <ns0:event>Flash Flood Warning</ns0:event>
+    <ns0:urgency>Immediate</ns0:urgency>
+    <ns0:severity>Severe</ns0:severity>
+    <ns0:certainty>Likely</ns0:certainty>
+    <ns0:eventCode>
+      <ns0:valueName>SAME</ns0:valueName>
+      <ns0:value>FFW</ns0:value>
+    </ns0:eventCode>
+    <ns0:effective>2018-09-26T06:44:00-05:00</ns0:effective>
+    <ns0:expires>2018-09-26T08:15:00-05:00</ns0:expires>
+    <ns0:senderName>NWS Huntsville (Northern Alabama)</ns0:senderName>
+    <ns0:headline>Flash Flood Warning issued September 26 at 6:44AM CDT until September 26 at 8:15AM CDT by NWS Huntsville</ns0:headline>
+    <ns0:description>The National Weather Service in Huntsville Alabama has issued a
+* Flash Flood Warning for...
+Southwestern Morgan County in north central Alabama...
+Southeastern Lawrence County in northwestern Alabama...
+* Until 815 AM CDT.
+* At 641 AM CDT, Doppler radar indicated that heavy rain has already
+fallen across the warning area, with between 1 and 2 inches over
+the last hour. Additional thunderstorms producing torrential
+rainfall will arrive in the warning area by 7 AM, with flash
+flooding expected to begin shortly.
+* Some locations that will experience flooding include...
+Decatur, Hartselle, Moulton, Falkville, Speake, Neel, Massey,
+Basham and eastern Bankhead National Forest.</ns0:description>
+    <ns0:instruction>Turn around, don`t drown when encountering flooded roads. Most flood
+deaths occur in vehicles.
+A Flash Flood Warning means that flooding is imminent or occurring.
+If you are in the warned area move to higher ground immediately.
+Residents living along streams and creeks should take immediate
+precautions to protect life and property.</ns0:instruction>
+    <ns0:parameter>
+      <ns0:valueName>WMOHEADER</ns0:valueName>
+      <ns0:value />
+    </ns0:parameter>
+    <ns0:parameter>
+      <ns0:valueName>UGC</ns0:valueName>
+      <ns0:value>ALC079-103</ns0:value>
+    </ns0:parameter>
+    <ns0:parameter>
+      <ns0:valueName>VTEC</ns0:valueName>
+      <ns0:value>/O.NEW.KHUN.FF.W.0010.180926T1144Z-180926T1315Z/
+/00000.0.ER.000000T0000Z.000000T0000Z.000000T0000Z.OO/</ns0:value>
+    </ns0:parameter>
+    <ns0:parameter>
+      <ns0:valueName>TIME...MOT...LOC</ns0:valueName>
+      <ns0:value />
+    </ns0:parameter>
+    <ns0:area>
+      <ns0:areaDesc>Lawrence; Morgan</ns0:areaDesc>
+      <ns0:polygon>34.3,-87.22 34.46,-87.28 34.56,-86.96 34.39,-86.9 34.3,-87.22</ns0:polygon>
+      <ns0:geocode>
+        <ns0:valueName>FIPS6</ns0:valueName>
+        <ns0:value>001079</ns0:value>
+      </ns0:geocode>
+      <ns0:geocode>
+        <ns0:valueName>FIPS6</ns0:valueName>
+        <ns0:value>001103</ns0:value>
+      </ns0:geocode>
+      <ns0:geocode>
+        <ns0:valueName>UGC</ns0:valueName>
+        <ns0:value>ALC079</ns0:value>
+      </ns0:geocode>
+      <ns0:geocode>
+        <ns0:valueName>UGC</ns0:valueName>
+        <ns0:value>ALC103</ns0:value>
+      </ns0:geocode>
+    </ns0:area>
+  </ns0:info>
+</ns0:alert>

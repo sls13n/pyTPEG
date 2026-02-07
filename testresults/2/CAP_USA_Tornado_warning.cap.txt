@@ -1,0 +1,87 @@
+
+
+
+Length of file D:\work\BitBucket\eawstarterkit\sample_data\CAP_sample_data\CAP_around_the_world\CAP_USA\CAP_USA_Tornado_warning.cap = 3720
+ALERT -- (Component type=CAP_alert) 
+  Elements 
+  +identifier = NOAA-NWS-ALERTS-FL125AC1F196E4.TornadoWarning.125AC1F1B5C0FL.JAXSVSJAX.39d05d03e9fe875b2f1c6ca774de52ac
+  +sender     = w-nws.webmaster@noaa.gov
+  +sent       = 2018-10-10T15:21:00-04:00
+  +status     = Actual
+  +msgType    = Alert
+  +scope      = Public
+  +note       = Alert for Clay; Duval; Nassau (Florida) Issued by the National Weather Service
+  INFO -- (Component type=CAP_info) 
+    Elements 
+    +category    = Met
+    +event       = Tornado Warning
+    +urgency     = Immediate
+    +severity    = Extreme
+    +certainty   = Observed
+    +effective   = 2018-10-10T15:21:00-04:00
+    +expires     = 2018-10-10T16:00:00-04:00
+    +senderName  = NWS Jacksonville (Northeast Florida and Southeast Georgia)
+    +headline    = Tornado Warning issued October 10 at 3:21PM EDT until October 10 at 4:00PM EDT by NWS Jacksonville
+    +description = ...A TORNADO WARNING REMAINS IN EFFECT UNTIL 400 PM EDT FOR
+SOUTHWESTERN NASSAU...NORTHWESTERN CLAY AND SOUTHWESTERN DUVAL
+COUNTIES...
+At 321 PM EDT, a confirmed tornado was located near Maxville, or 8
+miles northwest of Middleburg, moving north at 35 mph.
+HAZARD...Damaging tornado.
+SOURCE...Emergency management confirmed tornado.
+IMPACT...Flying debris will be dangerous to those caught without
+shelter. Mobile homes will be damaged or destroyed. Damage
+to roofs, windows, and vehicles will occur.  Tree damage is
+likely.
+This tornado will be near...
+Maxville around 330 PM EDT.
+Other locations impacted by this tornadic thunderstorm include
+Baldwin.
+TORNADO...OBSERVED
+HAIL...0.00IN
+    +instruction = To repeat, a tornado is on the ground. TAKE COVER NOW! Move to a
+basement or an interior room on the lowest floor of a sturdy
+building. Avoid windows. If you are outdoors, in a mobile home, or in
+a vehicle, move to the closest substantial shelter and protect
+yourself from flying debris.
+    Parameters 
+    +eventCode
+        valueName = SAME
+        value     = TOR
+    +parameter
+        valueName = WMOHEADER
+        value     = 
+    +parameter
+        valueName = UGC
+        value     = FLC019-031-089
+    +parameter
+        valueName = VTEC
+        value     = /O.CON.KJAX.TO.W.0007.000000T0000Z-181010T2000Z/
+    +parameter
+        valueName = TIME...MOT...LOC
+        value     = 1921Z 196DEG 29KT 3013 8201
+    AREA -- (Component type=CAP_area) 
+      Elements 
+      +areaDesc = Clay; Duval; Nassau
+      +polygon  = 30.19,-81.91 30.18,-81.91 30.06,-81.96 30.08,-82.05 30.27,-82.05 30.33,-82.04 30.31,-81.86 30.19,-81.91
+      Parameters 
+      +geocode
+          valueName = FIPS6
+          value     = 012019
+      +geocode
+          valueName = FIPS6
+          value     = 012031
+      +geocode
+          valueName = FIPS6
+          value     = 012089
+      +geocode
+          valueName = UGC
+          value     = FLC019
+      +geocode
+          valueName = UGC
+          value     = FLC031
+      +geocode
+          valueName = UGC
+          value     = FLC089
+---- End ALERT -- (Component type=CAP_alert) ----
+

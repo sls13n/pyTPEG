@@ -1,0 +1,4 @@
+
+
+
+Length of file D:\work\BitBucket\eawstarterkit\sample_data\CAP_sample_data\CAP_ITSworldcongress21\Polizeieinsatz_HH-Dammtor_klein_Entwarnung.cap = 3011

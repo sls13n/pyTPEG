@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+	<identifier>2.49.0.0.528.0.NL.181010051343.0_VV_LB</identifier>
+	<sender>procesbewaker@knmi.nl</sender>
+	<sent>2018-10-10T03:13:43+00:00</sent>
+	<status>Actual</status>
+	<msgType>Alert</msgType>
+	<source>KNMI</source>
+	<scope>Public</scope>
+	<info>
+		<language>ne-NL</language>
+		<category>Met</category>
+		<event>Moderate fog warning</event>
+		<responseType>Monitor</responseType>
+		<urgency>Future</urgency>
+		<severity>Moderate</severity>
+		<certainty>Likely</certainty>
+		<effective>2018-10-10T03:13:43+00:00</effective>
+		<onset>2018-10-10T03:00:00+00:00</onset>
+		<expires>2018-10-10T07:00:00+00:00</expires>
+		<senderName>KNMI Koninklijk Nederlands Meteorologisch Instituut</senderName>
+		<headline>Fog - Waarschuwingen voor Limburg - Nederland</headline>
+		<description>Lokaal dichte mistbanken met zicht van minder dan 200 m.
+Gevaarlijke rijomstandigheden door slecht zicht.
+Pas snelheid aan en houd voldoende afstand.
+Mist kan verraderlijk zijn door plotseling optreden.
+Volg weerberichten en waarschuwingen.</description>
+		<web>http://meteoalarm.eu/ne_NL/0/0/NL012-Limburg.html</web>
+		<contact>procesbewaker@knmi.nl</contact>
+		<parameter>
+			<valueName>awareness_type</valueName>
+			<value>4; Fog</value>
+		</parameter>
+		<parameter>
+			<valueName>awareness_level</valueName>
+			<value>2; yellow; Moderate</value>
+		</parameter>
+		<area>
+			<areaDesc>Limburg</areaDesc>
+			<polygon>51.7614577991,5.99184397106 51.7558570984,5.83057824329 51.5698457963,6.00636591396 51.530136764,5.84734535967 51.3535919772,5.87787201214 51.2291427941,5.61344084327 51.1660291591,5.82717165518 51.1440957798,5.85517151618 50.8208956593,5.65427175651 50.7559958047,6.02017174531 50.9349386507,5.99119629081 51.0595957863,5.97087172157 51.1931959098,6.16117157191 51.359895917,6.22587135948 51.3609042134,6.22585316586 51.4722959312,6.22383807353 51.5132709532,6.21147147634 51.6464958992,6.11087122884 51.7614577991,5.99184397106</polygon>
+			<geocode>
+				<valueName>EMMA_ID</valueName>
+				<value>NL012</value>
+			</geocode>
+		</area>
+	</info>
+	<info>
+		<language>en-GB</language>
+		<category>Met</category>
+		<event>Moderate fog warning</event>
+		<responseType>Monitor</responseType>
+		<urgency>Future</urgency>
+		<severity>Moderate</severity>
+		<certainty>Likely</certainty>
+		<effective>2018-10-10T03:13:43+00:00</effective>
+		<onset>2018-10-10T03:00:00+00:00</onset>
+		<expires>2018-10-10T07:00:00+00:00</expires>
+		<senderName>KNMI Royal Netherlands Meteorological Institute</senderName>
+		<headline>Fog - No warnings for Limburg - The Netherlands</headline>
+		<description>Locally dense (banking) fog with visibility less than 200 m.
+BE AWARE of some widespread, locally dense fog.
+May strongly affect outdoor routines.
+Can cause airport closures and delays, difficult driving conditions and longer journey times.</description>
+		<web>http://meteoalarm.eu/ne_NL/0/0/NL012-Limburg.html</web>
+		<contact>procesbewaker@knmi.nl</contact>
+		<parameter>
+			<valueName>awareness_type</valueName>
+			<value>4; Fog</value>
+		</parameter>
+		<parameter>
+			<valueName>awareness_level</valueName>
+			<value>2; yellow; Moderate</value>
+		</parameter>
+		<area>
+			<areaDesc>Limburg</areaDesc>
+			<polygon>51.7614577991,5.99184397106 51.7558570984,5.83057824329 51.5698457963,6.00636591396 51.530136764,5.84734535967 51.3535919772,5.87787201214 51.2291427941,5.61344084327 51.1660291591,5.82717165518 51.1440957798,5.85517151618 50.8208956593,5.65427175651 50.7559958047,6.02017174531 50.9349386507,5.99119629081 51.0595957863,5.97087172157 51.1931959098,6.16117157191 51.359895917,6.22587135948 51.3609042134,6.22585316586 51.4722959312,6.22383807353 51.5132709532,6.21147147634 51.6464958992,6.11087122884 51.7614577991,5.99184397106</polygon>
+			<geocode>
+				<valueName>EMMA_ID</valueName>
+				<value>NL012</value>
+			</geocode>
+		</area>
+	</info>
+</alert>

@@ -1,0 +1,252 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:kml xmlns:ns0="http://www.opengis.net/kml/2.2" xmlns:ns1="http://www.google.com/kml/ext/2.2">
+  <ns0:Document>
+    <ns0:name>CAP messages</ns0:name>
+    <ns0:Style id="downArrowIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/pal4/icon28.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="trafficIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/cabs.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="trafficWithAccidentIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/caution.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="globeIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/pal3/icon19.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="gasStationIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/gas_stations.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+      <ns0:LineStyle>
+        <ns0:width>2</ns0:width>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="standardIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/paddle/blu-diamond.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+      <ns0:LineStyle>
+        <ns0:width>2</ns0:width>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="transPoly">
+      <ns0:LineStyle>
+        <ns0:width>8</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>000000ff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transRedPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d0000ff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transGreenPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d00ff00</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transYellowPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d00ffff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transBluePoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7dff0000</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="BlackLine">
+      <ns0:LineStyle>
+        <ns0:width>6</ns0:width>
+        <ns0:color>ff000000</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="RedLine">
+      <ns0:LineStyle>
+        <ns0:width>5</ns0:width>
+        <ns0:color>ff0000ff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="OrangeLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff00a5ff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="YellowLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff00ffff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="DarkGreenLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff009933</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="GreenLine">
+      <ns0:LineStyle>
+        <ns0:width>3</ns0:width>
+        <ns0:color>ff00ff00</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="WhiteLine">
+      <ns0:LineStyle>
+        <ns0:width>8</ns0:width>
+        <ns0:color>ffffffff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="TecLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ffffffff</ns0:color>
+        <ns1:outerColor>dddddddd</ns1:outerColor>
+        <ns1:outerWidth>1.0</ns1:outerWidth>
+        <ns1:labelVisibility>1</ns1:labelVisibility>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Placemark>
+      <ns0:name>NOAA-NWS-ALERTS-FL125AC1F196E4.TornadoWarning.125AC1F1B5C0FL.JAXSVSJAX.39d05d03e9fe875b2f1c6ca774de52ac</ns0:name>
+      <ns0:description>..headline = Tornado Warning issued October 10 at 3:21PM EDT until October 10 at 4:00PM EDT by NWS Jacksonville
+.....event = Tornado Warning
+.......area = Clay; Duval; Nassau
+
+ALERT -- (Component type=CAP_alert) 
+  Elements 
+  +identifier = NOAA-NWS-ALERTS-FL125AC1F196E4.TornadoWarning.125AC1F1B5C0FL.JAXSVSJAX.39d05d03e9fe875b2f1c6ca774de52ac
+  +sender     = w-nws.webmaster@noaa.gov
+  +sent       = 2018-10-10T15:21:00-04:00
+  +status     = Actual
+  +msgType    = Alert
+  +scope      = Public
+  +note       = Alert for Clay; Duval; Nassau (Florida) Issued by the National Weather Service
+  INFO -- (Component type=CAP_info) 
+    Elements 
+    +category    = Met
+    +event       = Tornado Warning
+    +urgency     = Immediate
+    +severity    = Extreme
+    +certainty   = Observed
+    +effective   = 2018-10-10T15:21:00-04:00
+    +expires     = 2018-10-10T16:00:00-04:00
+    +senderName  = NWS Jacksonville (Northeast Florida and Southeast Georgia)
+    +headline    = Tornado Warning issued October 10 at 3:21PM EDT until October 10 at 4:00PM EDT by NWS Jacksonville
+    +description = ...A TORNADO WARNING REMAINS IN EFFECT UNTIL 400 PM EDT FOR
+SOUTHWESTERN NASSAU...NORTHWESTERN CLAY AND SOUTHWESTERN DUVAL
+COUNTIES...
+At 321 PM EDT, a confirmed tornado was located near Maxville, or 8
+miles northwest of Middleburg, moving north at 35 mph.
+HAZARD...Damaging tornado.
+SOURCE...Emergency management confirmed tornado.
+IMPACT...Flying debris will be dangerous to those caught without
+shelter. Mobile homes will be damaged or destroyed. Damage
+to roofs, windows, and vehicles will occur.  Tree damage is
+likely.
+This tornado will be near...
+Maxville around 330 PM EDT.
+Other locations impacted by this tornadic thunderstorm include
+Baldwin.
+TORNADO...OBSERVED
+HAIL...0.00IN
+    +instruction = To repeat, a tornado is on the ground. TAKE COVER NOW! Move to a
+basement or an interior room on the lowest floor of a sturdy
+building. Avoid windows. If you are outdoors, in a mobile home, or in
+a vehicle, move to the closest substantial shelter and protect
+yourself from flying debris.
+    Parameters 
+    +parameter
+        valueName = WMOHEADER
+        value     = 
+    +parameter
+        valueName = UGC
+        value     = FLC019-031-089
+    +parameter
+        valueName = VTEC
+        value     = /O.CON.KJAX.TO.W.0007.000000T0000Z-181010T2000Z/
+    +parameter
+        valueName = TIME...MOT...LOC
+        value     = 1921Z 196DEG 29KT 3013 8201
+    +eventCode : 1 occurrence  of valueName "SAME"
+    AREA -- (Component type=CAP_area) 
+      Elements 
+      +areaDesc = Clay; Duval; Nassau
+      +polygon  = 30.19,-81.91 30.18,-81.91 30.06,-81.96 30.08,-82.05 30.27,-82.05 30.33,-82.04 30.31,-81.86 30.19,-81.91
+      Parameters 
+      +geocode
+          valueName = FIPS6
+          value     = 012019
+      +geocode
+          valueName = FIPS6
+          value     = 012031
+      +geocode
+          valueName = FIPS6
+          value     = 012089
+      +geocode
+          valueName = UGC
+          value     = FLC019
+      +geocode
+          valueName = UGC
+          value     = FLC031
+      +geocode
+          valueName = UGC
+          value     = FLC089
+---- End ALERT -- (Component type=CAP_alert) ----
+</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#transGreenPoly</ns0:styleUrl>
+      <ns0:Polygon>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:outerBoundaryIs>
+          <ns0:LinearRing>
+            <ns0:coordinates>
+		 -81.91,30.19 
+		 -81.91,30.18 
+		 -81.96,30.06 
+		 -82.05,30.08 
+		 -82.05,30.27 
+		 -82.04,30.33 
+		 -81.86,30.31 
+		 -81.91,30.19 
+		</ns0:coordinates>
+          </ns0:LinearRing>
+        </ns0:outerBoundaryIs>
+      </ns0:Polygon>
+    </ns0:Placemark>
+  </ns0:Document>
+</ns0:kml>

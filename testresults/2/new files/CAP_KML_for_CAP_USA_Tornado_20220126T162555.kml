@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:kml xmlns:ns0="http://www.opengis.net/kml/2.2" xmlns:ns1="http://www.google.com/kml/ext/2.2">
+  <ns0:Document>
+    <ns0:name>CAP messages</ns0:name>
+    <ns0:Style id="downArrowIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/pal4/icon28.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="trafficIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/cabs.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="trafficWithAccidentIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/caution.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="globeIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/pal3/icon19.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="gasStationIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/gas_stations.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+      <ns0:LineStyle>
+        <ns0:width>2</ns0:width>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="standardIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/paddle/blu-diamond.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+      <ns0:LineStyle>
+        <ns0:width>2</ns0:width>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="transPoly">
+      <ns0:LineStyle>
+        <ns0:width>8</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>000000ff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transRedPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d0000ff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transGreenPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d00ff00</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transYellowPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d00ffff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transBluePoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7dff0000</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="BlackLine">
+      <ns0:LineStyle>
+        <ns0:width>6</ns0:width>
+        <ns0:color>ff000000</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="RedLine">
+      <ns0:LineStyle>
+        <ns0:width>5</ns0:width>
+        <ns0:color>ff0000ff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="OrangeLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff00a5ff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="YellowLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff00ffff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="DarkGreenLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff009933</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="GreenLine">
+      <ns0:LineStyle>
+        <ns0:width>3</ns0:width>
+        <ns0:color>ff00ff00</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="WhiteLine">
+      <ns0:LineStyle>
+        <ns0:width>8</ns0:width>
+        <ns0:color>ffffffff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="TecLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ffffffff</ns0:color>
+        <ns1:outerColor>dddddddd</ns1:outerColor>
+        <ns1:outerWidth>1.0</ns1:outerWidth>
+        <ns1:labelVisibility>1</ns1:labelVisibility>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Placemark>
+      <ns0:name>
+    NOAA-NWS-ALERTS-NE124C9B0E523C.TornadoWarning.124C9B0E5DF4NE.LBFTORLBF.8cb
+    293373886cf0e5646bdb790df1f01
+  </ns0:name>
+      <ns0:description>..headline = 
+    Tornado Warning issued February 28 at 4:15PM CST until February 28 at 4:45PM CST
+    by NWS NorthPlatte
+   
+.....event = Tornado Warning
+.......area = Lincoln and Logan Counties NE
+
+ALERT -- (Component type=CAP_alert) 
+  Elements 
+  +identifier = 
+    NOAA-NWS-ALERTS-NE124C9B0E523C.TornadoWarning.124C9B0E5DF4NE.LBFTORLBF.8cb
+    293373886cf0e5646bdb790df1f01
+  
+  +sender     = w-nws.webmaster@noaa.gov
+  +sent       = 2012-02-28T16:15:00-06:00
+  +status     = Actual
+  +msgType    = Alert
+  +scope      = Public
+  +note       = Alert for Lincoln; Logan (Nebraska) Issued by the National Weather Service
+  INFO -- (Component type=CAP_info) 
+    Elements 
+    +category    = Met
+    +event       = Tornado Warning
+    +urgency     = Immediate
+    +severity    = Extreme
+    +certainty   = Observed
+    +effective   = 2012-02-28T16:15:00-06:00
+    +expires     = 2012-02-28T16:45:00-06:00
+    +senderName  = NWS NorthPlatte (Central Nebraska - North Platte)
+    +headline    = 
+    Tornado Warning issued February 28 at 4:15PM CST until February 28 at 4:45PM CST
+    by NWS NorthPlatte
+   
+    +description = 
+    THE NATIONAL WEATHER SERVICE IN NORTH PLATTE HAS ISSUED A
+    * TORNADO WARNING FOR...NORTH CENTRAL LINCOLN COUNTY IN SOUTHWEST NEBRASKA
+    ...CENTRAL LOGAN COUNTY IN WEST CENTRAL NEBRASKA...
+    * UNTIL 445 PM CST
+    * AT 410 PM CST...TRAINED WEATHER SPOTTERS REPORTED A TORNADO 9 MILES SOUTH
+    OF STAPLETON. DOPPLER RADAR SHOWED THIS TORNADO MOVING NORTHEAST AT 40 MPH.
+    * THE TORNADO WILL BE NEAR...STAPLETON AND GANDY AROUND 425 PM CST. TARBOZ LAKE
+    AROUND 430 PM CST. OTHER LOCATIONS IMPACTED BY THE TORNADO INCLUDE HIGHWAY 83 MILE 
+    MARKER 120.
+   
+    +instruction = 
+    TO REPEAT...A TORNADO IS ON THE GROUND. TAKE COVER NOW. MOVE TO AN INTERIOR ROOM
+    ON THE LOWEST FLOOR OF A STURDY BUILDING. AVOID WINDOWS. IF IN A MOBILE HOME...
+    A VEHICLE OR OUTDOORS...MOVE TO THE CLOSEST SUBSTANTIAL SHELTER AND PROTECT YOURSELF
+    FROM FLYING DEBRIS.
+   
+    +web         : 1 occurrence
+    Parameters 
+    +parameter
+        valueName = WMOHEADER
+        value     = 
+    +parameter
+        valueName = UGC
+        value     = NEC111-113
+    +parameter
+        valueName = VTEC
+        value     = /O.NEW.KLBF.TO.W.0001.120228T2215Z-120228T2245Z/
+    +parameter
+        valueName = TIME...MOT...LOC
+        value     = 2215Z 205DEG 33KT 4140 10054
+    +eventCode : 1 occurrence  of valueName "SAME"
+    AREA -- (Component type=CAP_area) 
+      Elements 
+      +areaDesc = Lincoln and Logan Counties NE
+      +polygon  = 41.63,-100.52 41.56,-100.33 41.33,-100.56 41.38,-100.64 41.63,-100.52
+      Parameters 
+      +geocode
+          valueName = FIPS6
+          value     = 031111
+      +geocode
+          valueName = FIPS6
+          value     = 031113
+      +geocode
+          valueName = UGC
+          value     = NEC111
+      +geocode
+          valueName = UGC
+          value     = NEC113
+---- End ALERT -- (Component type=CAP_alert) ----
+</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#transGreenPoly</ns0:styleUrl>
+      <ns0:Polygon>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:outerBoundaryIs>
+          <ns0:LinearRing>
+            <ns0:coordinates>
+		 -100.52,41.63 
+		 -100.33,41.56 
+		 -100.56,41.33 
+		 -100.64,41.38 
+		 -100.52,41.63 
+		</ns0:coordinates>
+          </ns0:LinearRing>
+        </ns0:outerBoundaryIs>
+      </ns0:Polygon>
+    </ns0:Placemark>
+  </ns0:Document>
+</ns0:kml>

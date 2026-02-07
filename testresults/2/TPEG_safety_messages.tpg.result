@@ -1,0 +1,1026 @@
+TPEG parser: number of files  1
+ === start parsing D:\work\BitBucket\eawstarterkit\sample_data\TEC_sample_data\ITSTF13011TISATPEGSafetyMessagesTestFest2013\TPEG_safety_messages.tpg=========================================
+
+
+
+
+TPEG transport frame: (type=1), (ServiceFrameLength=3521), (headerCRC=0x37E8)
+  TPEG service data frame: (SID = 100.255.255), (ServEncID=0)
+    TPEG component frame: (fieldlength=108)
+      Header attributes:
+      + SCID        = 0
+      + fieldlength = 108
+      + hdrCRC      = 0x5266
+      Extended Attributes:
+      + Message count     = 4
+      + dataCRC           = 0x80B2
+      + Components parsed = 4
+
+      SNI component "Guide to the service table 1 (Fast Tuning)", ID=01, CompLen= 7, type=SNI_01
+        Attributes:
+        + Table version   = 8
+        + Character table = 125
+        + SCID  2         = (COID= 0, AID= 5, SafetyFlag set)
+      ---- End SNI component "Guide to the service table 1 (Fast Tuning)" -- (Component ID=01, CompLen= 7, type=SNI_01) ----
+
+      SNI component "Guide to the Service Table 7 (Versioning)", ID=14, CompLen= 7, type=SNI_14
+        Attributes:
+        + Table version = 8
+        + SCID  0       = Specification Version: (Major= 3, Minor= 2)
+        + SCID  2       = Specification Version: (Major= 3, Minor= 2)
+      ---- End SNI component "Guide to the Service Table 7 (Versioning)" -- (Component ID=14, CompLen= 7, type=SNI_14) ----
+
+
+      SNI component "Service name and service description", ID=00, CompLen=68, type=SNI_00
+        Attributes:
+        + Service Name        = "TISA TPEG sample service"
+        + Service Description = "ITS Directive detailed TEC Safety Messages"
+      ---- End SNI component "Service name and service description" -- (Component ID=00, CompLen=68, type=SNI_00) ----
+
+      SNI component "Content description", ID=03, CompLen=11, type=SNI_03
+        Attributes:
+        + Table version  = 8
+        + Content SCID 0 = "SNI"
+        + Content SCID 2 = "LHW"
+      ---- End SNI component "Content description" -- (Component ID=03, CompLen=11, type=SNI_03) ----
+
+    TPEG component frame: (fieldlength=3399)
+      Header attributes:
+      + SCID        = 2
+      + fieldlength = 3399
+      + hdrCRC      = 0x30D6
+      Extended Attributes:
+      + Group priority    = 0
+      + Message count     = 39
+      + dataCRC           = 0x2BF3
+      + Components parsed = 39
+
+      TECmessage -- (Component ID=00, CompLen=76, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 28179
+          + versionID         = 26
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=49, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=44, type=TEC_DirectCause) 
+            Attributes (length Attribute block 43):
+            + mainCause    = 5: impassability
+            + warningLevel = 3: danger level 2
+            + subCause     = 1: flooding
+            + freeText_0   = LangCode: 38, "Category (a) Temporary slippery road"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 12515
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Positive
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=76, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=75, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 28182
+          + versionID         = 26
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=48, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=43, type=TEC_DirectCause) 
+            Attributes (length Attribute block 42):
+            + mainCause    = 7: aquaplaning
+            + warningLevel = 3: danger level 2
+            + freeText_0   = LangCode: 38, "Category (a) Temporary slippery road"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 12517
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Positive
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=75, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=75, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 28181
+          + versionID         = 26
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=48, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=43, type=TEC_DirectCause) 
+            Attributes (length Attribute block 42):
+            + mainCause    = 6: slippery road
+            + warningLevel = 3: danger level 2
+            + freeText_0   = LangCode: 38, "Category (a) Temporary slippery road"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 57888
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Positive
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=75, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=76, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 29639
+          + versionID         = 25
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=49, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=44, type=TEC_DirectCause) 
+            Attributes (length Attribute block 43):
+            + mainCause    = 6: slippery road
+            + warningLevel = 3: danger level 2
+            + subCause     = 3: mud on road
+            + freeText_0   = LangCode: 38, "Category (a) Temporary slippery road"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 12522
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Positive
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=76, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=76, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 29640
+          + versionID         = 25
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=49, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=44, type=TEC_DirectCause) 
+            Attributes (length Attribute block 43):
+            + mainCause    = 6: slippery road
+            + warningLevel = 3: danger level 2
+            + subCause     = 8: loose chippings
+            + freeText_0   = LangCode: 38, "Category (a) Temporary slippery road"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 12525
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Positive
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=76, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=76, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 29637
+          + versionID         = 25
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=49, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=44, type=TEC_DirectCause) 
+            Attributes (length Attribute block 43):
+            + mainCause    = 6: slippery road
+            + warningLevel = 3: danger level 2
+            + subCause     = 7: oil on road
+            + freeText_0   = LangCode: 38, "Category (a) Temporary slippery road"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 57919
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Positive
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=76, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=76, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 29638
+          + versionID         = 25
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=49, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=44, type=TEC_DirectCause) 
+            Attributes (length Attribute block 43):
+            + mainCause    = 6: slippery road
+            + warningLevel = 3: danger level 2
+            + subCause     = 2: fuel on road
+            + freeText_0   = LangCode: 38, "Category (a) Temporary slippery road"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 57890
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Positive
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=76, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=76, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 29635
+          + versionID         = 25
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=49, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=44, type=TEC_DirectCause) 
+            Attributes (length Attribute block 43):
+            + mainCause    = 6: slippery road
+            + warningLevel = 3: danger level 2
+            + subCause     = 5: ice on road
+            + freeText_0   = LangCode: 38, "Category (a) Temporary slippery road"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 57892
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Positive
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=76, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=76, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 29636
+          + versionID         = 25
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=49, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=44, type=TEC_DirectCause) 
+            Attributes (length Attribute block 43):
+            + mainCause    = 6: slippery road
+            + warningLevel = 3: danger level 2
+            + subCause     = 6: black ice on road
+            + freeText_0   = LangCode: 38, "Category (a) Temporary slippery road"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 12536
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Positive
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=76, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=76, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 29633
+          + versionID         = 26
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=49, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=44, type=TEC_DirectCause) 
+            Attributes (length Attribute block 43):
+            + mainCause    = 9: hazardous driving conditions
+            + warningLevel = 3: danger level 2
+            + subCause     = 5: snow drifts
+            + freeText_0   = LangCode: 38, "Category (a) Temporary slippery road"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 57894
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Positive
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=76, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=94, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 29634
+          + versionID         = 26
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=67, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=62, type=TEC_DirectCause) 
+            Attributes (length Attribute block 61):
+            + mainCause    = 10: objects on the road
+            + warningLevel = 3: danger level 2
+            + freeText_0   = LangCode: 38, "Category (b) Animal/people/obstacles/debris on the road"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 12541
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Positive
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=94, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=95, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 28224
+          + versionID         = 25
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=68, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=63, type=TEC_DirectCause) 
+            Attributes (length Attribute block 62):
+            + mainCause    = 10: objects on the road
+            + warningLevel = 3: danger level 2
+            + subCause     = 1: shed load
+            + freeText_0   = LangCode: 38, "Category (b) Animal/people/obstacles/debris on the road"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 12545
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Positive
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=95, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=95, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 28223
+          + versionID         = 25
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=68, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=63, type=TEC_DirectCause) 
+            Attributes (length Attribute block 62):
+            + mainCause    = 10: objects on the road
+            + warningLevel = 3: danger level 2
+            + subCause     = 5: fallen trees
+            + freeText_0   = LangCode: 38, "Category (b) Animal/people/obstacles/debris on the road"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 12548
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Positive
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=95, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=95, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 27334
+          + versionID         = 25
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=68, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=63, type=TEC_DirectCause) 
+            Attributes (length Attribute block 62):
+            + mainCause    = 5: impassability
+            + warningLevel = 3: danger level 2
+            + subCause     = 2: danger of avalanches
+            + freeText_0   = LangCode: 38, "Category (b) Animal/people/obstacles/debris on the road"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 60556
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Positive
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=95, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=95, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 27333
+          + versionID         = 25
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=68, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=63, type=TEC_DirectCause) 
+            Attributes (length Attribute block 62):
+            + mainCause    = 9: hazardous driving conditions
+            + warningLevel = 3: danger level 2
+            + subCause     = 1: rockfalls
+            + freeText_0   = LangCode: 38, "Category (b) Animal/people/obstacles/debris on the road"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 60560
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Positive
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=95, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=95, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 27327
+          + versionID         = 25
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=68, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=63, type=TEC_DirectCause) 
+            Attributes (length Attribute block 62):
+            + mainCause    = 5: impassability
+            + warningLevel = 3: danger level 2
+            + subCause     = 4: landslips
+            + freeText_0   = LangCode: 38, "Category (b) Animal/people/obstacles/debris on the road"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 60563
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Positive
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=95, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=94, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 27328
+          + versionID         = 25
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=67, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=62, type=TEC_DirectCause) 
+            Attributes (length Attribute block 61):
+            + mainCause    = 11: animals on roadway
+            + warningLevel = 3: danger level 2
+            + freeText_0   = LangCode: 38, "Category (b) Animal/people/obstacles/debris on the road"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 12555
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Positive
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=94, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=94, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 27323
+          + versionID         = 26
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=67, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=62, type=TEC_DirectCause) 
+            Attributes (length Attribute block 61):
+            + mainCause    = 12: people on roadway
+            + warningLevel = 3: danger level 2
+            + freeText_0   = LangCode: 38, "Category (b) Animal/people/obstacles/debris on the road"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 12557
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Positive
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=94, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=95, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 27321
+          + versionID         = 26
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=68, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=63, type=TEC_DirectCause) 
+            Attributes (length Attribute block 62):
+            + mainCause    = 12: people on roadway
+            + warningLevel = 3: danger level 2
+            + subCause     = 1: children on roadway
+            + freeText_0   = LangCode: 38, "Category (b) Animal/people/obstacles/debris on the road"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 12560
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Positive
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=95, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=95, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 27315
+          + versionID         = 26
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=68, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=63, type=TEC_DirectCause) 
+            Attributes (length Attribute block 62):
+            + mainCause    = 12: people on roadway
+            + warningLevel = 3: danger level 2
+            + subCause     = 2: cyclists on roadway
+            + freeText_0   = LangCode: 38, "Category (b) Animal/people/obstacles/debris on the road"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 12565
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Negative
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=95, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=95, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 27316
+          + versionID         = 26
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=68, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=63, type=TEC_DirectCause) 
+            Attributes (length Attribute block 62):
+            + mainCause    = 11: animals on roadway
+            + warningLevel = 3: danger level 2
+            + subCause     = 4: large animals
+            + freeText_0   = LangCode: 38, "Category (b) Animal/people/obstacles/debris on the road"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 12561
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Negative
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=95, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=95, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 27313
+          + versionID         = 26
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=68, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=63, type=TEC_DirectCause) 
+            Attributes (length Attribute block 62):
+            + mainCause    = 11: animals on roadway
+            + warningLevel = 3: danger level 2
+            + subCause     = 2: herd of animals
+            + freeText_0   = LangCode: 38, "Category (b) Animal/people/obstacles/debris on the road"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 60763
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Negative
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=95, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=95, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 27314
+          + versionID         = 26
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=68, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=63, type=TEC_DirectCause) 
+            Attributes (length Attribute block 62):
+            + mainCause    = 20: reckless persons
+            + warningLevel = 4: danger level 3
+            + subCause     = 3: persons throwing objects
+            + freeText_0   = LangCode: 38, "Category (b) Animal/people/obstacles/debris on the road"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 60564
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Negative
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=95, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=94, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 27312
+          + versionID         = 25
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=67, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=62, type=TEC_DirectCause) 
+            Attributes (length Attribute block 61):
+            + mainCause    = 13: broken down vehicles
+            + warningLevel = 3: danger level 2
+            + freeText_0   = LangCode: 38, "Category (b) Animal/people/obstacles/debris on the road"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 36030
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Negative
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=94, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=78, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 27311
+          + versionID         = 25
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=51, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=46, type=TEC_DirectCause) 
+            Attributes (length Attribute block 45):
+            + mainCause    = 2: accident
+            + warningLevel = 3: danger level 2
+            + subCause     = 7: unsecured accident
+            + freeText_0   = LangCode: 38, "Category (c) Unprotected accident area"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 12552
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Negative
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=78, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=73, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 27306
+          + versionID         = 25
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=46, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=41, type=TEC_DirectCause) 
+            Attributes (length Attribute block 40):
+            + mainCause    = 15: rescue and recovery work in progress
+            + warningLevel = 3: danger level 2
+            + freeText_0   = LangCode: 38, "Category (d) Short term road works"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 60558
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Negative
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=73, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=73, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 27305
+          + versionID         = 25
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=46, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=41, type=TEC_DirectCause) 
+            Attributes (length Attribute block 40):
+            + mainCause    = 3: roadworks
+            + warningLevel = 3: danger level 2
+            + freeText_0   = LangCode: 38, "Category (d) Short term road works"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 60553
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Negative
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=73, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=74, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 27304
+          + versionID         = 25
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=47, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=42, type=TEC_DirectCause) 
+            Attributes (length Attribute block 41):
+            + mainCause    = 26: slow moving vehicles
+            + warningLevel = 3: danger level 2
+            + subCause     = 1: slow moving maintenance vehicle
+            + freeText_0   = LangCode: 38, "Category (d) Short term road works"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 60551
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Negative
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=74, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=74, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 27303
+          + versionID         = 25
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=47, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=42, type=TEC_DirectCause) 
+            Attributes (length Attribute block 41):
+            + mainCause    = 3: roadworks
+            + warningLevel = 3: danger level 2
+            + subCause     = 2: road marking work
+            + freeText_0   = LangCode: 38, "Category (d) Short term road works"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 12543
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Negative
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=74, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=70, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 27302
+          + versionID         = 25
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=43, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=38, type=TEC_DirectCause) 
+            Attributes (length Attribute block 37):
+            + mainCause    = 18: visibility reduced
+            + warningLevel = 3: danger level 2
+            + freeText_0   = LangCode: 38, "Category (e) Reduced visibility"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 12539
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Negative
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=70, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=71, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 27301
+          + versionID         = 25
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=44, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=39, type=TEC_DirectCause) 
+            Attributes (length Attribute block 38):
+            + mainCause    = 18: visibility reduced
+            + warningLevel = 3: danger level 2
+            + subCause     = 2: visibility reduced due to smoke
+            + freeText_0   = LangCode: 38, "Category (e) Reduced visibility"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 12537
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Negative
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=71, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=71, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 27300
+          + versionID         = 25
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=44, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=39, type=TEC_DirectCause) 
+            Attributes (length Attribute block 38):
+            + mainCause    = 18: visibility reduced
+            + warningLevel = 3: danger level 2
+            + subCause     = 1: visibility reduced due to fog
+            + freeText_0   = LangCode: 38, "Category (e) Reduced visibility"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 12535
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Negative
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=71, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=71, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 27299
+          + versionID         = 25
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=44, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=39, type=TEC_DirectCause) 
+            Attributes (length Attribute block 38):
+            + mainCause    = 18: visibility reduced
+            + warningLevel = 3: danger level 2
+            + subCause     = 3: visibility reduced due to heavy snowfall
+            + freeText_0   = LangCode: 38, "Category (e) Reduced visibility"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 12533
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Negative
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=71, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=71, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 27289
+          + versionID         = 25
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=44, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=39, type=TEC_DirectCause) 
+            Attributes (length Attribute block 38):
+            + mainCause    = 18: visibility reduced
+            + warningLevel = 3: danger level 2
+            + subCause     = 6: visibility reduced due to low sun glare
+            + freeText_0   = LangCode: 38, "Category (e) Reduced visibility"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 12530
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Negative
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=71, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=64, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 27290
+          + versionID         = 25
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=37, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=32, type=TEC_DirectCause) 
+            Attributes (length Attribute block 31):
+            + mainCause    = 14: vehicle on wrong carriageway
+            + warningLevel = 4: danger level 3
+            + freeText_0   = LangCode: 38, "Category (f) Ghost driver"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 12528
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Negative
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=64, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=80, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 27291
+          + versionID         = 25
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=53, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=48, type=TEC_DirectCause) 
+            Attributes (length Attribute block 47):
+            + mainCause    = 5: impassability
+            + warningLevel = 3: danger level 2
+            + freeText_0   = LangCode: 38, "Category (g) Unmanaged blockage of a road"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 30504
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Negative
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=80, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=121, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 27292
+          + versionID         = 25
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=94, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=89, type=TEC_DirectCause) 
+            Attributes (length Attribute block 88):
+            + mainCause    = 19: precipitation
+            + warningLevel = 3: danger level 2
+            + subCause     = 2: heavy snowfall
+            + freeText_0   = LangCode: 38, "Category (h) Exceptional weather conditions (*not covered by category (a) or (e))"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 54978
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Negative
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=121, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=121, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 28369
+          + versionID         = 25
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=94, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=89, type=TEC_DirectCause) 
+            Attributes (length Attribute block 88):
+            + mainCause    = 19: precipitation
+            + warningLevel = 3: danger level 2
+            + subCause     = 1: heavy rain
+            + freeText_0   = LangCode: 38, "Category (h) Exceptional weather conditions (*not covered by category (a) or (e))"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 54977
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Negative
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=121, type=TEC) ----
+
+      TECmessage -- (Component ID=00, CompLen=121, type=TEC) 
+        MMC_component -- (Component ID=01, CompLen=10, type=MMC_component) 
+          Attributes (length Attribute block  9):
+          + messageID         = 27293
+          + versionID         = 25
+          + messageExpiryTime = 2015-12-08 14:53:31
+        Event -- (Component ID=03, CompLen=94, type=TEC_Event) 
+          Attributes (length Attribute block  2):
+          + effectCode = 1: traffic flow unknown
+          DirectCause -- (Component ID=04, CompLen=89, type=TEC_DirectCause) 
+            Attributes (length Attribute block 88):
+            + mainCause    = 17: extreme weather conditions
+            + warningLevel = 3: danger level 2
+            + subCause     = 1: strong winds
+            + freeText_0   = LangCode: 38, "Category (h) Exceptional weather conditions (*not covered by category (a) or (e))"
+        LocationReferencingContainer -- (Component ID=02, CompLen=10, type=LRC) 
+          LRC_TMC -- (Component ID=02, CompLen= 7, type=LRC_TMC) 
+            Attributes (length Attribute block  6):
+            + locationID          = 57887
+            + countryCode         = d
+            + locationTableNumber = 1
+            + direction           = Negative
+            + extent              = 3
+      ---- End TECmessage -- (Component ID=00, CompLen=121, type=TEC) ----
+
+
+
+
+ === end parsing D:\work\BitBucket\eawstarterkit\sample_data\TEC_sample_data\ITSTF13011TISATPEGSafetyMessagesTestFest2013\TPEG_safety_messages.tpg=========================================
+

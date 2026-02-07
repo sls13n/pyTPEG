@@ -1,0 +1,714 @@
+TTN parser: number of files  1
+ === start parsing TPEG_EAW_for_37A12800D3492382_20210504T092224.tpeg=========================================
+
+
+
+
+TTN transport frame: (type=1), (ServiceFrameLength=1352), (headerCRC=0xB81F)
+  TPEG service data frame: (SID = 0.225.225), (ServEncID=0)
+    TPEG component frame: (fieldlength=23)
+      Header attributes:
+      + SCID        = 0
+      + fieldlength = 23
+      + hdrCRC      = 0x64F1
+      Extended Attributes:
+      + Message count     = 2
+      + dataCRC           = 0x552E
+      + Components parsed = 2
+
+      SNI component "Guide to the service table 1 (Fast Tuning)", ID=01, CompLen= 7, type=SNI_01
+        Attributes:
+        + Table version   = 20
+        + Character table = 125
+        + SCID  5         = (COID=20, AID=15)
+      ---- End SNI component "Guide to the service table 1 (Fast Tuning)" -- (Component ID=01, CompLen= 7, type=SNI_01) ----
+
+      SNI component "Guide to the Service Table 7 (Versioning)", ID=14, CompLen= 7, type=SNI_14
+        Attributes:
+        + Table version = 20
+        + SCID  0       = Specification Version: (Major= 3, Minor= 2)
+        + SCID  5       = Specification Version: (Major= 1, Minor= 1)
+      ---- End SNI component "Guide to the Service Table 7 (Versioning)" -- (Component ID=14, CompLen= 7, type=SNI_14) ----
+
+    TPEG component frame: (fieldlength=1315)
+      Header attributes:
+      + SCID        = 5
+      + fieldlength = 1315
+      + hdrCRC      = 0x5D9A
+      Extended Attributes:
+      + Message count     = 1
+      + dataCRC           = 0xD3E6
+      + Components parsed = 1
+
+      EAWmessage -- (Component ID=00, CompLen=1309, type=EAW) 
+        MessageManagementContainer -- (Component ID=01, CompLen= 8, type=MMC_component) 
+          Attributes (length Attribute block  7):
+          + messageID         = 20
+          + versionID         = 1
+          + messageExpiryTime = 2021-05-04 08:22:24
+        AlertInformation -- (Component ID=03, CompLen=1270, type=EAW_AlertInformation) 
+          Attributes (length Attribute block 24):
+          + alertLevel      = 1: CAP derived level
+          + category_0      = 6: fire
+          + urgency         = 1: immediate
+          + severity        = 2: severe
+          + certainty       = 1: observed
+          alertTimeInfo -- (DataStructure, type=EAW_CapTimeInfo) 
+            Attributes
+            + effective = 2020-04-20 20:28:14
+          + alertUserStatus = 1: new
+          alertEvent_0 -- (DataStructure, type=EAW_EventType) 
+            Attributes
+            + mainEvent = 8: fire
+            + subEvent  = 4: forest fire
+          alertInstruction_0 -- (DataStructure, type=EAW_InstructionType) 
+            Attributes
+            + mainInstruction = 4: inform yourself via all possible media
+            + subInstruction  = 7: pay attention to announcements made by the police and fire brigade
+          alertInstruction_1 -- (DataStructure, type=EAW_InstructionType) 
+            Attributes
+            + mainInstruction = 2: follow instructions of local authorities
+            + subInstruction  = 10: follow the instructions of the emergency services
+          LocalisedAlertTextInfo -- (Component ID=04, CompLen=431, type=EAW_LocalisedAlertTextInfo) 
+            Attributes (length Attribute block 429):
+            + rfc3066LanguageCode = "de_DE"
+            + eventText           = "Gefahrenmitteilung"
+            + senderName          = "Integrierte Regionalleitstelle Mitte (Kiel)"
+            + headline            = "Feuer im Bereich Schwabe bei Jevenstedt"
+            + description         = "In der Gemeinde Jevenstedt, Kreis Rendsburg/Eckernförde, werden die Bewohner aufgrund eines Feuerwehreinsatzes gebeten, Fenster und Türen geschlossen zu halten sowie Lüftungs- und Klimaanlagen abzuschalten."
+            + instruction         = "Achten Sie auf Durchsagen von Polizei und Feuerwehr.
+Folgen Sie den Anweisungen der Einsatzkräfte.
+"
+            + contact             = ""
+          AffectedArea -- (Component ID=05, CompLen=808, type=LRC) 
+            LRC_OLR -- (Component ID=08, CompLen=804, type=LRC_OLR) 
+              Attributes (length Attribute block  1):
+              + version = 1.1
+              OLR_PolygonLR -- (Component ID=05, CompLen=757, type=OLR_PolygonLR) 
+                Attributes (length Attribute block 755):
+                startCoordinate -- (DataStructure, type=OLR_AbsoluteGeoCoordinate) 
+                  Attributes
+                  + longitude = 9.67234
+                  + latitude  = 54.25724
+                coordinatePath_0 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 77
+                  + delta latitude  = -99
+                coordinatePath_1 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 153
+                  + delta latitude  = -184
+                coordinatePath_2 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 116
+                  + delta latitude  = -95
+                coordinatePath_3 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 807
+                  + delta latitude  = 261
+                coordinatePath_4 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 72
+                  + delta latitude  = -115
+                coordinatePath_5 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 164
+                  + delta latitude  = -21
+                coordinatePath_6 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 59
+                  + delta latitude  = 80
+                coordinatePath_7 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 426
+                  + delta latitude  = -80
+                coordinatePath_8 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 19
+                  + delta latitude  = 34
+                coordinatePath_9 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 497
+                  + delta latitude  = 48
+                coordinatePath_10 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 86
+                  + delta latitude  = 56
+                coordinatePath_11 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 577
+                  + delta latitude  = -29
+                coordinatePath_12 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 695
+                  + delta latitude  = 104
+                coordinatePath_13 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 71
+                  + delta latitude  = -393
+                coordinatePath_14 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -30
+                  + delta latitude  = -104
+                coordinatePath_15 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 110
+                  + delta latitude  = -23
+                coordinatePath_16 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 69
+                  + delta latitude  = -13
+                coordinatePath_17 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 966
+                  + delta latitude  = -81
+                coordinatePath_18 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -134
+                  + delta latitude  = -18
+                coordinatePath_19 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 35
+                  + delta latitude  = -172
+                coordinatePath_20 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 333
+                  + delta latitude  = 23
+                coordinatePath_21 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 125
+                  + delta latitude  = 9
+                coordinatePath_22 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 749
+                  + delta latitude  = 40
+                coordinatePath_23 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 391
+                  + delta latitude  = -140
+                coordinatePath_24 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 32
+                  + delta latitude  = -179
+                coordinatePath_25 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 392
+                  + delta latitude  = 27
+                coordinatePath_26 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 67
+                  + delta latitude  = -346
+                coordinatePath_27 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 350
+                  + delta latitude  = -54
+                coordinatePath_28 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 308
+                  + delta latitude  = 80
+                coordinatePath_29 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 371
+                  + delta latitude  = 80
+                coordinatePath_30 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -64
+                  + delta latitude  = -936
+                coordinatePath_31 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -324
+                  + delta latitude  = -30
+                coordinatePath_32 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -187
+                  + delta latitude  = 41
+                coordinatePath_33 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -209
+                  + delta latitude  = -1
+                coordinatePath_34 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -129
+                  + delta latitude  = -38
+                coordinatePath_35 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -159
+                  + delta latitude  = -109
+                coordinatePath_36 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -132
+                  + delta latitude  = 22
+                coordinatePath_37 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -211
+                  + delta latitude  = 2
+                coordinatePath_38 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -160
+                  + delta latitude  = -37
+                coordinatePath_39 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -137
+                  + delta latitude  = -48
+                coordinatePath_40 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -113
+                  + delta latitude  = 3
+                coordinatePath_41 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 72
+                  + delta latitude  = -92
+                coordinatePath_42 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 1
+                  + delta latitude  = -89
+                coordinatePath_43 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -69
+                  + delta latitude  = -55
+                coordinatePath_44 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 82
+                  + delta latitude  = -84
+                coordinatePath_45 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 107
+                  + delta latitude  = -108
+                coordinatePath_46 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 107
+                  + delta latitude  = -73
+                coordinatePath_47 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 41
+                  + delta latitude  = -114
+                coordinatePath_48 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 80
+                  + delta latitude  = -71
+                coordinatePath_49 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 155
+                  + delta latitude  = -45
+                coordinatePath_50 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 141
+                  + delta latitude  = -51
+                coordinatePath_51 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -518
+                  + delta latitude  = -603
+                coordinatePath_52 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -571
+                  + delta latitude  = -1629
+                coordinatePath_53 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -84
+                  + delta latitude  = -69
+                coordinatePath_54 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 154
+                  + delta latitude  = -47
+                coordinatePath_55 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 60
+                  + delta latitude  = -56
+                coordinatePath_56 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -16
+                  + delta latitude  = -40
+                coordinatePath_57 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 144
+                  + delta latitude  = -104
+                coordinatePath_58 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 7
+                  + delta latitude  = -6
+                coordinatePath_59 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 0
+                  + delta latitude  = -13
+                coordinatePath_60 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -72
+                  + delta latitude  = -66
+                coordinatePath_61 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -28
+                  + delta latitude  = -17
+                coordinatePath_62 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -116
+                  + delta latitude  = -69
+                coordinatePath_63 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -79
+                  + delta latitude  = -119
+                coordinatePath_64 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -85
+                  + delta latitude  = -176
+                coordinatePath_65 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -79
+                  + delta latitude  = -109
+                coordinatePath_66 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -1562
+                  + delta latitude  = -421
+                coordinatePath_67 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -27
+                  + delta latitude  = -91
+                coordinatePath_68 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -384
+                  + delta latitude  = 72
+                coordinatePath_69 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -151
+                  + delta latitude  = -114
+                coordinatePath_70 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -916
+                  + delta latitude  = 17
+                coordinatePath_71 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 220
+                  + delta latitude  = 419
+                coordinatePath_72 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -34
+                  + delta latitude  = 133
+                coordinatePath_73 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -235
+                  + delta latitude  = 62
+                coordinatePath_74 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 39
+                  + delta latitude  = 94
+                coordinatePath_75 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 124
+                  + delta latitude  = 105
+                coordinatePath_76 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -15
+                  + delta latitude  = 53
+                coordinatePath_77 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -168
+                  + delta latitude  = 52
+                coordinatePath_78 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -1399
+                  + delta latitude  = 113
+                coordinatePath_79 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -160
+                  + delta latitude  = 294
+                coordinatePath_80 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -80
+                  + delta latitude  = 196
+                coordinatePath_81 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -129
+                  + delta latitude  = -24
+                coordinatePath_82 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -168
+                  + delta latitude  = -55
+                coordinatePath_83 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 59
+                  + delta latitude  = -58
+                coordinatePath_84 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -594
+                  + delta latitude  = -158
+                coordinatePath_85 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -303
+                  + delta latitude  = -9
+                coordinatePath_86 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -291
+                  + delta latitude  = -78
+                coordinatePath_87 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -482
+                  + delta latitude  = -131
+                coordinatePath_88 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 36
+                  + delta latitude  = -73
+                coordinatePath_89 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -245
+                  + delta latitude  = -63
+                coordinatePath_90 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -25
+                  + delta latitude  = 26
+                coordinatePath_91 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -32
+                  + delta latitude  = 40
+                coordinatePath_92 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -335
+                  + delta latitude  = -138
+                coordinatePath_93 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 14
+                  + delta latitude  = -30
+                coordinatePath_94 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -88
+                  + delta latitude  = -14
+                coordinatePath_95 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -101
+                  + delta latitude  = 2
+                coordinatePath_96 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -85
+                  + delta latitude  = -7
+                coordinatePath_97 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -68
+                  + delta latitude  = -29
+                coordinatePath_98 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -211
+                  + delta latitude  = -163
+                coordinatePath_99 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -341
+                  + delta latitude  = 140
+                coordinatePath_100 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -77
+                  + delta latitude  = -132
+                coordinatePath_101 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -713
+                  + delta latitude  = 80
+                coordinatePath_102 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 58
+                  + delta latitude  = 375
+                coordinatePath_103 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 77
+                  + delta latitude  = 131
+                coordinatePath_104 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 268
+                  + delta latitude  = 35
+                coordinatePath_105 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -34
+                  + delta latitude  = 136
+                coordinatePath_106 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -195
+                  + delta latitude  = 34
+                coordinatePath_107 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -171
+                  + delta latitude  = 207
+                coordinatePath_108 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 19
+                  + delta latitude  = 101
+                coordinatePath_109 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 143
+                  + delta latitude  = 113
+                coordinatePath_110 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -1052
+                  + delta latitude  = 360
+                coordinatePath_111 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -447
+                  + delta latitude  = -197
+                coordinatePath_112 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -616
+                  + delta latitude  = 97
+                coordinatePath_113 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 65
+                  + delta latitude  = 108
+                coordinatePath_114 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 52
+                  + delta latitude  = 135
+                coordinatePath_115 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 49
+                  + delta latitude  = 178
+                coordinatePath_116 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 35
+                  + delta latitude  = 82
+                coordinatePath_117 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -41
+                  + delta latitude  = 213
+                coordinatePath_118 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -15
+                  + delta latitude  = 224
+                coordinatePath_119 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 122
+                  + delta latitude  = 61
+                coordinatePath_120 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -277
+                  + delta latitude  = 63
+                coordinatePath_121 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 248
+                  + delta latitude  = 343
+                coordinatePath_122 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -80
+                  + delta latitude  = 46
+                coordinatePath_123 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -480
+                  + delta latitude  = 20
+                coordinatePath_124 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -130
+                  + delta latitude  = 247
+                coordinatePath_125 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 40
+                  + delta latitude  = 426
+                coordinatePath_126 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 561
+                  + delta latitude  = 355
+                coordinatePath_127 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 268
+                  + delta latitude  = 0
+                coordinatePath_128 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -30
+                  + delta latitude  = 316
+                coordinatePath_129 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 491
+                  + delta latitude  = 15
+                coordinatePath_130 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 433
+                  + delta latitude  = 12
+                coordinatePath_131 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -39
+                  + delta latitude  = 146
+                coordinatePath_132 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 964
+                  + delta latitude  = 366
+                coordinatePath_133 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 1701
+                  + delta latitude  = 566
+                coordinatePath_134 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -67
+                  + delta latitude  = 180
+                coordinatePath_135 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -528
+                  + delta latitude  = -4
+                coordinatePath_136 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 193
+                  + delta latitude  = 216
+                coordinatePath_137 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -514
+                  + delta latitude  = 414
+                coordinatePath_138 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 564
+                  + delta latitude  = 91
+                coordinatePath_139 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 405
+                  + delta latitude  = 65
+                coordinatePath_140 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 345
+                  + delta latitude  = 153
+                coordinatePath_141 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -58
+                  + delta latitude  = 414
+                coordinatePath_142 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 118
+                  + delta latitude  = 44
+                coordinatePath_143 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 70
+                  + delta latitude  = -13
+                coordinatePath_144 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 457
+                  + delta latitude  = -20
+                coordinatePath_145 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = -12
+                  + delta latitude  = -293
+                coordinatePath_146 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 87
+                  + delta latitude  = -252
+                coordinatePath_147 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 207
+                  + delta latitude  = -5
+                coordinatePath_148 -- (DataStructure, type=OLR_RelativeGeoCoordinate) 
+                  Attributes
+                  + delta longitude = 107
+                  + delta latitude  = -66
+              OLR_LocationDescription -- (Component ID=11, CompLen=40, type=OLR_LocationDescription) 
+                Attributes (length Attribute block 39):
+                + description_0 = LangCode: 33, "Gemeinde/Stadt: Gemeinde Jevenstedt"
+        InformationArea -- (Component ID=02, CompLen=23, type=LRC) 
+          LRC_OLR -- (Component ID=08, CompLen=20, type=LRC_OLR) 
+            Attributes (length Attribute block  1):
+            + version = 1.1
+            OLR_RectangleLR -- (Component ID=06, CompLen=16, type=OLR_RectangleLR) 
+              Attributes (length Attribute block 15):
+              rectangle -- (DataStructure, type=OLR_Rectangle) 
+                Attributes
+                lowerLeftCoordinate -- (DataStructure, type=OLR_AbsoluteGeoCoordinate) 
+                  Attributes
+                  + longitude = 8.99989
+                  + latitude  = 53.82834
+                upperRightCoordinate -- (DataStructure, type=OLR_AbsoluteGeoCoordinate) 
+                  Attributes
+                  + longitude = 10.36791
+                  + latitude  = 54.6235
+      ---- End EAWmessage -- (Component ID=00, CompLen=1309, type=EAW) ----
+
+
+
+
+ === end parsing TPEG_EAW_for_37A12800D3492382_20210504T092224.tpeg=========================================
+

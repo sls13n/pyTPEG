@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:kml xmlns:ns0="http://www.opengis.net/kml/2.2" xmlns:ns1="http://www.google.com/kml/ext/2.2">
+  <ns0:Document>
+    <ns0:name>CAP messages</ns0:name>
+    <ns0:Style id="downArrowIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/pal4/icon28.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="trafficIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/cabs.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="trafficWithAccidentIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/caution.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="globeIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/pal3/icon19.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="gasStationIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/gas_stations.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+      <ns0:LineStyle>
+        <ns0:width>2</ns0:width>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="standardIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/paddle/blu-diamond.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+      <ns0:LineStyle>
+        <ns0:width>2</ns0:width>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="transPoly">
+      <ns0:LineStyle>
+        <ns0:width>8</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>000000ff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transRedPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d0000ff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transGreenPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d00ff00</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transYellowPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d00ffff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transBluePoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7dff0000</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="BlackLine">
+      <ns0:LineStyle>
+        <ns0:width>6</ns0:width>
+        <ns0:color>ff000000</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="RedLine">
+      <ns0:LineStyle>
+        <ns0:width>5</ns0:width>
+        <ns0:color>ff0000ff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="OrangeLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff00a5ff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="YellowLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff00ffff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="DarkGreenLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff009933</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="GreenLine">
+      <ns0:LineStyle>
+        <ns0:width>3</ns0:width>
+        <ns0:color>ff00ff00</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="WhiteLine">
+      <ns0:LineStyle>
+        <ns0:width>8</ns0:width>
+        <ns0:color>ffffffff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="TecLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ffffffff</ns0:color>
+        <ns1:outerColor>dddddddd</ns1:outerColor>
+        <ns1:outerWidth>1.0</ns1:outerWidth>
+        <ns1:labelVisibility>1</ns1:labelVisibility>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Placemark>
+      <ns0:name>2.49.0.0.528.0.NL.181010051343.0_VV_LB</ns0:name>
+      <ns0:description>..headline = Fog - Waarschuwingen voor Limburg - Nederland
+.....event = Moderate fog warning
+.......area = Limburg
+
+ALERT -- (Component type=CAP_alert) 
+  Elements 
+  +identifier = 2.49.0.0.528.0.NL.181010051343.0_VV_LB
+  +sender     = procesbewaker@knmi.nl
+  +sent       = 2018-10-10T03:13:43+00:00
+  +status     = Actual
+  +msgType    = Alert
+  +source     = KNMI
+  +scope      = Public
+  INFO -- (Component type=CAP_info) 
+    Elements 
+    +language     = ne-NL
+    +category     = Met
+    +event        = Moderate fog warning
+    +responseType = Monitor
+    +urgency      = Future
+    +severity     = Moderate
+    +certainty    = Likely
+    +effective    = 2018-10-10T03:13:43+00:00
+    +onset        = 2018-10-10T03:00:00+00:00
+    +expires      = 2018-10-10T07:00:00+00:00
+    +senderName   = KNMI Koninklijk Nederlands Meteorologisch Instituut
+    +headline     = Fog - Waarschuwingen voor Limburg - Nederland
+    +description  = Lokaal dichte mistbanken met zicht van minder dan 200 m.
+Gevaarlijke rijomstandigheden door slecht zicht.
+Pas snelheid aan en houd voldoende afstand.
+Mist kan verraderlijk zijn door plotseling optreden.
+Volg weerberichten en waarschuwingen.
+    +contact      = procesbewaker@knmi.nl
+    +web          : 1 occurrence
+    Parameters 
+    +parameter
+        valueName = awareness_type
+        value     = 4; Fog
+    +parameter
+        valueName = awareness_level
+        value     = 2; yellow; Moderate
+    AREA -- (Component type=CAP_area) 
+      Elements 
+      +areaDesc = Limburg
+      +polygon  = 51.7614577991,5.99184397106 51.7558570984,5.83057824329 51.5698457963,6.00636591396 51.530136764,5.84734535967 51.3535919772,5.87787201214 51.2291427941,5.61344084327 51.1660291591,5.82717165518 51.1440957798,5.85517151618 50.8208956593,5.65427175651 50.7559958047,6.02017174531 50.9349386507,5.99119629081 51.0595957863,5.97087172157 51.1931959098,6.16117157191 51.359895917,6.22587135948 51.3609042134,6.22585316586 51.4722959312,6.22383807353 51.5132709532,6.21147147634 51.6464958992,6.11087122884 51.7614577991,5.99184397106
+      Parameters 
+      +geocode
+          valueName = EMMA_ID
+          value     = NL012
+  INFO -- (Component type=CAP_info) 
+    Elements 
+    +language     = en-GB
+    +category     = Met
+    +event        = Moderate fog warning
+    +responseType = Monitor
+    +urgency      = Future
+    +severity     = Moderate
+    +certainty    = Likely
+    +effective    = 2018-10-10T03:13:43+00:00
+    +onset        = 2018-10-10T03:00:00+00:00
+    +expires      = 2018-10-10T07:00:00+00:00
+    +senderName   = KNMI Royal Netherlands Meteorological Institute
+    +headline     = Fog - No warnings for Limburg - The Netherlands
+    +description  = Locally dense (banking) fog with visibility less than 200 m.
+BE AWARE of some widespread, locally dense fog.
+May strongly affect outdoor routines.
+Can cause airport closures and delays, difficult driving conditions and longer journey times.
+    +contact      = procesbewaker@knmi.nl
+    +web          : 1 occurrence
+    Parameters 
+    +parameter
+        valueName = awareness_type
+        value     = 4; Fog
+    +parameter
+        valueName = awareness_level
+        value     = 2; yellow; Moderate
+    AREA -- (Component type=CAP_area) 
+      Elements 
+      +areaDesc = Limburg
+      +polygon  = 51.7614577991,5.99184397106 51.7558570984,5.83057824329 51.5698457963,6.00636591396 51.530136764,5.84734535967 51.3535919772,5.87787201214 51.2291427941,5.61344084327 51.1660291591,5.82717165518 51.1440957798,5.85517151618 50.8208956593,5.65427175651 50.7559958047,6.02017174531 50.9349386507,5.99119629081 51.0595957863,5.97087172157 51.1931959098,6.16117157191 51.359895917,6.22587135948 51.3609042134,6.22585316586 51.4722959312,6.22383807353 51.5132709532,6.21147147634 51.6464958992,6.11087122884 51.7614577991,5.99184397106
+      Parameters 
+      +geocode
+          valueName = EMMA_ID
+          value     = NL012
+---- End ALERT -- (Component type=CAP_alert) ----
+</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#transYellowPoly</ns0:styleUrl>
+      <ns0:Polygon>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:outerBoundaryIs>
+          <ns0:LinearRing>
+            <ns0:coordinates>
+		 5.99184397106,51.7614577991 
+		 5.83057824329,51.7558570984 
+		 6.00636591396,51.5698457963 
+		 5.84734535967,51.530136764 
+		 5.87787201214,51.3535919772 
+		 5.61344084327,51.2291427941 
+		 5.82717165518,51.1660291591 
+		 5.85517151618,51.1440957798 
+		 5.65427175651,50.8208956593 
+		 6.02017174531,50.7559958047 
+		 5.99119629081,50.9349386507 
+		 5.97087172157,51.0595957863 
+		 6.16117157191,51.1931959098 
+		 6.22587135948,51.359895917 
+		 6.22585316586,51.3609042134 
+		 6.22383807353,51.4722959312 
+		 6.21147147634,51.5132709532 
+		 6.11087122884,51.6464958992 
+		 5.99184397106,51.7614577991 
+		</ns0:coordinates>
+          </ns0:LinearRing>
+        </ns0:outerBoundaryIs>
+      </ns0:Polygon>
+    </ns0:Placemark>
+  </ns0:Document>
+</ns0:kml>

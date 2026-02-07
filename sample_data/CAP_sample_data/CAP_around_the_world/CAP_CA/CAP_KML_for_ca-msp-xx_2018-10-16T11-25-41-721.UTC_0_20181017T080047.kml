@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:kml xmlns:ns0="http://www.opengis.net/kml/2.2" xmlns:ns1="http://www.google.com/kml/ext/2.2">
+  <ns0:Document>
+    <ns0:name>CAP messages</ns0:name>
+    <ns0:Style id="downArrowIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/pal4/icon28.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="trafficIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/cabs.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="trafficWithAccidentIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/caution.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="globeIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/pal3/icon19.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="gasStationIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/gas_stations.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+      <ns0:LineStyle>
+        <ns0:width>2</ns0:width>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="standardIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/paddle/blu-diamond.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+      <ns0:LineStyle>
+        <ns0:width>2</ns0:width>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="transPoly">
+      <ns0:LineStyle>
+        <ns0:width>8</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>000000ff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transRedPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d0000ff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transGreenPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d00ff00</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transYellowPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d00ffff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transBluePoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7dff0000</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="BlackLine">
+      <ns0:LineStyle>
+        <ns0:width>6</ns0:width>
+        <ns0:color>ff000000</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="RedLine">
+      <ns0:LineStyle>
+        <ns0:width>5</ns0:width>
+        <ns0:color>ff0000ff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="OrangeLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff00a5ff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="YellowLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff00ffff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="DarkGreenLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff009933</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="GreenLine">
+      <ns0:LineStyle>
+        <ns0:width>3</ns0:width>
+        <ns0:color>ff00ff00</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="WhiteLine">
+      <ns0:LineStyle>
+        <ns0:width>8</ns0:width>
+        <ns0:color>ffffffff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="TecLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ffffffff</ns0:color>
+        <ns1:outerColor>dddddddd</ns1:outerColor>
+        <ns1:outerWidth>1.0</ns1:outerWidth>
+        <ns1:labelVisibility>1</ns1:labelVisibility>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Placemark>
+      <ns0:name>urn:oid:2.49.0.1.124.2244709540.2018</ns0:name>
+      <ns0:description>..headline = blizzard warning in effect
+.....event = blizzard
+.......area = Dempster
+
+ALERT -- (Component type=CAP_alert) 
+  Elements 
+  +identifier  = urn:oid:2.49.0.1.124.2244709540.2018
+  +sender      = cap-pac@canada.ca
+  +sent        = 2018-10-16T11:23:22-00:00
+  +status      = Actual
+  +msgType     = Update
+  +source      = Env. Can. - Can. Met. Ctr. – Montréal
+  +scope       = Public
+  +restriction = 
+  +addresses   = 
+  +code        = profile:CAP-CP:0.4
+  +code        = layer:SOREM:1.0
+  +code        = layer:EC-MSC-SMC:1.0
+  +code        = layer:WPAM:1.0
+  +code        = layer:EC-MSC-SMC:1.1
+  +code        = layer:SOREM:2.0
+  +note        = Service Notice: Changes to ECCC CAP, of importance to users of ECCC CAP, are in development for a possible Spring 2019 release (or later). To have access to notices as they become available you are invited to subscribe to the following mailing list: lists.cmc.ec.gc.ca/mailman/listinfo/dd_info | Notification de service: Des changements au PAC d’ECCC, et qui sont d’importance aux utilisateurs, sont en développement pour un possible lancement au printemps 2019 (ou plus tard). Afin d’avoir accès aux notifications dès qu’elles sont disponibles, vous êtes invités à vous inscrire à la liste de diffusion suivante: lists.cmc.ec.gc.ca/mailman/listinfo/dd_info
+  +references  = cap-pac@canada.ca,urn:oid:2.49.0.1.124.4023079261.2018,2018-10-15T11:34:31-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.3505686955.2018,2018-10-15T11:35:31-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.3064125026.2018,2018-10-15T18:06:04-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2170113335.2018,2018-10-15T18:07:04-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2897749837.2018,2018-10-15T23:31:20-00:00 cap-pac@canada.ca,urn:oid:2.49.0.1.124.2350373485.2018,2018-10-15T23:32:20-00:00
+  +incidents   = 
+  INFO -- (Component type=CAP_info) 
+    Elements 
+    +language     = en-CA
+    +category     = Met
+    +event        = blizzard
+    +responseType = Monitor
+    +urgency      = Future
+    +severity     = Severe
+    +certainty    = Likely
+    +audience     = general public
+    +effective    = 2018-10-16T11:23:22-00:00
+    +expires      = 2018-10-16T22:04:22-00:00
+    +senderName   = Environment Canada
+    +headline     = blizzard warning in effect
+    +description  = 
+Blizzard conditions with gusty winds and visibility frequently near zero in snow and blowing snow are expected or occurring.
+
+###
+
+Travel is expected to be extremely hazardous due to reduced visibility. Road closures are possible.
+
+Blizzard warnings are issued when widespread reduced visibilities of 400 metres or less are expected for at least 4 hours.
+
+Please continue to monitor alerts and forecasts issued by Environment Canada. To report severe weather in British Columbia or Yukon, send an email to BCstorm@canada.ca or YTstorm@canada.ca or tweet reports using #BCStorm or #YTStorm.
+
+    +instruction  = 
+    +contact      = 
+    +web          : 1 occurrence
+    Parameters 
+    +parameter
+        valueName = layer:EC-MSC-SMC:1.0:Alert_Type
+        value     = warning
+    +parameter
+        valueName = layer:EC-MSC-SMC:1.0:Broadcast_Intrusive
+        value     = no
+    +parameter
+        valueName = layer:SOREM:1.0:Broadcast_Immediately
+        value     = No
+    +parameter
+        valueName = layer:EC-MSC-SMC:1.1:Parent_URI
+        value     = msc/alert/environment/hazard/alert-3.0-ascii/consolidated-xml-2.0/20181016112322085/WW_19_79_CWVR/BZW/912585351987223264201810150502_WW_19_79_CWVR/actual/en_proper_complete_c-fr_not_present_u/NinJo
+    +parameter
+        valueName = layer:EC-MSC-SMC:1.1:CAP_count
+        value     = A:4997 M:28878 C:51372
+    +parameter
+        valueName = layer:EC-MSC-SMC:1.0:Alert_Location_Status
+        value     = active
+    +parameter
+        valueName = layer:EC-MSC-SMC:1.0:Alert_Name
+        value     = blizzard warning
+    +parameter
+        valueName = layer:EC-MSC-SMC:1.0:Alert_Coverage
+        value     = Yukon and Northern British Columbia
+    +parameter
+        valueName = layer:EC-MSC-SMC:1.1:Designation_Code
+        value     = WW_19_79_CWVR
+    +parameter
+        valueName = layer:SOREM:2.0:WirelessImmediate
+        value     = No
+    AREA -- (Component type=CAP_area) 
+      Elements 
+      +areaDesc = Dempster
+      +polygon  = 67.0066,-136.1454 67.0082,-135.0367 67.0081,-134.985 65.4581,-137.8443 64.342,-137.8311 64.3417,-137.8311 64.3421,-137.8338 64.4725,-138.6742 64.5198,-138.9891 64.5286,-138.9893 65.53,-139.0095 66.6872,-137.1605 66.6852,-137.1566 66.6721,-137.1315 67.2548,-136.175 67.3062,-136.0829 67.3062,-136.0829 67.2915,-136.0986 67.277,-136.1142 67.2767,-136.1145 67.1744,-136.2235 67.1272,-136.2019 67.1234,-136.2002 67.0458,-136.165 67.0066,-136.1473 67.0066,-136.1454
+      Parameters 
+      +geocode
+          valueName = layer:EC-MSC-SMC:1.0:CLC
+          value     = 093100
+      +geocode
+          valueName = profile:CAP-CP:Location:0.3
+          value     = 6001045
+  INFO -- (Component type=CAP_info) 
+    Elements 
+    +language     = fr-CA
+    +category     = Met
+    +event        = blizzard
+    +responseType = Monitor
+    +urgency      = Future
+    +severity     = Severe
+    +certainty    = Likely
+    +audience     = grand public
+    +effective    = 2018-10-16T11:23:22-00:00
+    +expires      = 2018-10-16T22:04:22-00:00
+    +senderName   = Environnement Canada
+    +headline     = avertissement de blizzard en vigueur
+    +description  = 
+Il y a ou il y aura du blizzard avec des vents soufflant en rafales et une visibilité souvent presque nulle sous la neige et dans la poudrerie.
+
+###
+
+On peut s'attendre à des conditions routières extrêmement dangereuses en raison de la visibilité réduite. Des fermetures de routes sont possibles.
+
+Un avertissement de blizzard est émis lorsque l'on prévoit que les vents produiront de la poudrerie réduisant la visibilité à 400 mètres ou moins de façon généralisée durant au moins 4 heures.
+
+Veuillez continuer à surveiller les alertes et les prévisions émises par Environnement Canada. Pour signaler du temps violent en Colombie-Britannique ou au Yukon, envoyez un courriel à meteoBC@canada.ca ou à meteoYT@canada.ca ou publiez un gazouillis en utilisant le mot-clic #BCMeteo ou #YTMeteo.
+
+    +instruction  = 
+    +contact      = 
+    +web          : 1 occurrence
+    Parameters 
+    +parameter
+        valueName = layer:EC-MSC-SMC:1.0:Alert_Type
+        value     = warning
+    +parameter
+        valueName = layer:EC-MSC-SMC:1.0:Broadcast_Intrusive
+        value     = no
+    +parameter
+        valueName = layer:SOREM:1.0:Broadcast_Immediately
+        value     = No
+    +parameter
+        valueName = layer:EC-MSC-SMC:1.1:Parent_URI
+        value     = msc/alert/environment/hazard/alert-3.0-ascii/consolidated-xml-2.0/20181016112322085/WW_19_79_CWVR/BZW/912585351987223264201810150502_WW_19_79_CWVR/actual/en_proper_complete_c-fr_not_present_u/NinJo
+    +parameter
+        valueName = layer:EC-MSC-SMC:1.1:CAP_count
+        value     = A:4997 M:28878 C:51372
+    +parameter
+        valueName = layer:EC-MSC-SMC:1.0:Alert_Location_Status
+        value     = active
+    +parameter
+        valueName = layer:EC-MSC-SMC:1.0:Alert_Name
+        value     = avertissement de blizzard
+    +parameter
+        valueName = layer:EC-MSC-SMC:1.0:Alert_Coverage
+        value     = Yukon et le nord de la Colombie-Britannique
+    +parameter
+        valueName = layer:EC-MSC-SMC:1.1:Designation_Code
+        value     = WW_19_79_CWVR
+    +parameter
+        valueName = layer:SOREM:2.0:WirelessImmediate
+        value     = No
+    AREA -- (Component type=CAP_area) 
+      Elements 
+      +areaDesc = Dempster
+      +polygon  = 67.0066,-136.1454 67.0082,-135.0367 67.0081,-134.985 65.4581,-137.8443 64.342,-137.8311 64.3417,-137.8311 64.3421,-137.8338 64.4725,-138.6742 64.5198,-138.9891 64.5286,-138.9893 65.53,-139.0095 66.6872,-137.1605 66.6852,-137.1566 66.6721,-137.1315 67.2548,-136.175 67.3062,-136.0829 67.3062,-136.0829 67.2915,-136.0986 67.277,-136.1142 67.2767,-136.1145 67.1744,-136.2235 67.1272,-136.2019 67.1234,-136.2002 67.0458,-136.165 67.0066,-136.1473 67.0066,-136.1454
+      Parameters 
+      +geocode
+          valueName = layer:EC-MSC-SMC:1.0:CLC
+          value     = 093100
+      +geocode
+          valueName = profile:CAP-CP:Location:0.3
+          value     = 6001045
+---- End ALERT -- (Component type=CAP_alert) ----
+</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#transYellowPoly</ns0:styleUrl>
+      <ns0:Polygon>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:outerBoundaryIs>
+          <ns0:LinearRing>
+            <ns0:coordinates>
+		 -136.1454,67.0066 
+		 -135.0367,67.0082 
+		 -134.985,67.0081 
+		 -137.8443,65.4581 
+		 -137.8311,64.342 
+		 -137.8311,64.3417 
+		 -137.8338,64.3421 
+		 -138.6742,64.4725 
+		 -138.9891,64.5198 
+		 -138.9893,64.5286 
+		 -139.0095,65.53 
+		 -137.1605,66.6872 
+		 -137.1566,66.6852 
+		 -137.1315,66.6721 
+		 -136.175,67.2548 
+		 -136.0829,67.3062 
+		 -136.0829,67.3062 
+		 -136.0986,67.2915 
+		 -136.1142,67.277 
+		 -136.1145,67.2767 
+		 -136.2235,67.1744 
+		 -136.2019,67.1272 
+		 -136.2002,67.1234 
+		 -136.165,67.0458 
+		 -136.1473,67.0066 
+		 -136.1454,67.0066 
+		</ns0:coordinates>
+          </ns0:LinearRing>
+        </ns0:outerBoundaryIs>
+      </ns0:Polygon>
+    </ns0:Placemark>
+  </ns0:Document>
+</ns0:kml>

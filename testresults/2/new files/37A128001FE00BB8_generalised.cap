@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:alert xmlns:ns0="urn:oasis:names:tc:emergency:cap:1.2">
+  <ns0:identifier>DE-NW-GM-SE088-20200420-88-010</ns0:identifier>
+  <ns0:sender>DE-NW-GM-SE088</ns0:sender>
+  <ns0:sent>2020-04-20T23:24:56+02:00</ns0:sent>
+  <ns0:status>Actual</ns0:status>
+  <ns0:msgType>Cancel</ns0:msgType>
+  <ns0:scope>Public</ns0:scope>
+  <ns0:code>medien_regional</ns0:code>
+  <ns0:code>nina</ns0:code>
+  <ns0:references>DE-NW-GM-SE088-20200420,DE-NW-GM-SE088-20200420-88-005,88--T00:00:00+00:00</ns0:references>
+  <ns0:info>
+    <ns0:language>DE</ns0:language>
+    <ns0:category>Fire</ns0:category>
+    <ns0:event>Gefahrenmitteilung</ns0:event>
+    <ns0:urgency>Immediate</ns0:urgency>
+    <ns0:severity>Severe</ns0:severity>
+    <ns0:certainty>Observed</ns0:certainty>
+    <ns0:eventCode>
+      <ns0:valueName>profile:DE-BBK-EVENTCODE:01.00R</ns0:valueName>
+      <ns0:value>BBK-EVC-077</ns0:value>
+    </ns0:eventCode>
+    <ns0:headline>Entwarnung: Ausbreitung von Brandrauch</ns0:headline>
+    <ns0:description>Dies ist die Entwarnung zur Warnung "Ausbreitung von Brandrauch" vom 20.04.2020 20:44:58 gesendet durch LS Oberbergischer Kreis (DEU, NW, Marienheide). Die Warnung ist aufgehoben.
+
+In Stadt, Gummersbach Ortsteile Strombach,Karlskamp,Steinenbrück ist es zu einem Waldbrand gekommen. Dabei wird Brandrauch freigesetzt. Gesundheitliche Beeinträchtigungen können nicht ausgeschlossen werden. 
+
+AUFHEBUNG DER EVAKUIERUNGSMAßNAHMEN
+
+Eine unmittelbare Gefahr durch Ausdehnung des Brandereignisses besteht nicht mehr. Anwohner können sich zurück in ihre Häuser begeben.
+
+ACHTUNG:
+
+Die Gefahr durch Brandrauch besteht weiterhin. Bitte beachten Sie die Handlungsempfehlungen der Feuerwehr.
+
+Bitte begeben Sie sich im Bereich Stad Gummersbacht, Ortsteil Strombach,Karlskamp,Steinenbrück sofort in geschlossene Räume. Schließen Sie vorsorglich Fenster und Türen, schalten Sie Klima- und Lüftungsanlagen ab. Informieren Sie bei Bedarf Ihre Nachbarn.
+
+Blockieren Sie nicht den Notruf von Feuerwehr und Polizei durch Nachfragen.</ns0:description>
+    <ns0:instruction>Umfahren Sie das betroffene Gebiet weiträumig.
+Informieren Sie sich in den Medien, zum Beispiel im Lokalradio.
+Informieren Sie Ihre Nachbarn.
+Wir informieren Sie, wenn die Gefahr vorüber ist.
+Achten Sie auf Durchsagen von Polizei und Feuerwehr.
+Folgen Sie den Anweisungen der Einsatzkräfte.
+Wählen Sie nur in Notfällen den Notruf 110 (Polizei) und 112 (Feuerwehr).
+Halten Sie sämtliche Zugangswege zur Brandstelle frei.
+Schließen Sie Fenster und Türen und schalten Sie Lüftungen und Klimaanlagen ab.
+</ns0:instruction>
+    <ns0:web>www.obk.de</ns0:web>
+    <ns0:contact>Der Oberbergische Kreis hat ein Bürgertelefon eingerichtet. Sie erreichen dies unter  -  02261/88-3888</ns0:contact>
+    <ns0:parameter>
+      <ns0:valueName>warnVerwaltungsbereiche</ns0:valueName>
+      <ns0:value>053740004004,053740008008,053740012012,053740020020,053740024024,053740040040,053740048048</ns0:value>
+    </ns0:parameter>
+    <ns0:parameter>
+      <ns0:valueName>instructionCode</ns0:valueName>
+      <ns0:value>BBK-ISC-004 BBK-ISC-009 BBK-ISC-012 BBK-ISC-014 BBK-ISC-015 BBK-ISC-016 BBK-ISC-017 BBK-ISC-083 BBK-ISC-087 shortCode:BBK-ISC-001</ns0:value>
+    </ns0:parameter>
+    <ns0:parameter>
+      <ns0:valueName>sender_langname</ns0:valueName>
+      <ns0:value>Oberbergischer Kreis - Integrierte Leitstelle Oberberg</ns0:value>
+    </ns0:parameter>
+    <ns0:parameter>
+      <ns0:valueName>sender_signature</ns0:valueName>
+      <ns0:value>Oberbergischer Kreis - Integrierte Leitstelle Oberberg
+Lockenfeld 12
+51709 Marienheide</ns0:value>
+    </ns0:parameter>
+    <ns0:area>
+      <ns0:areaDesc>Gemeinde/Stadt: Gemeinde Lindlar, Stadt Wiehl, Gemeinde Marienheide, Gemeinde Reichshof, Gemeinde Engelskirchen, Stadt Gummersbach, Stadt Bergneustadt</ns0:areaDesc>
+      <ns0:geocode>
+        <ns0:valueName>WKT</ns0:valueName>
+        <ns0:value>POLYGON ((7.6182221731 51.0215391007, 7.6174941979 51.0158222412, 7.6158950762 51.0101759636, 7.6134232447 51.0046631382, 7.6101061344 50.9993289821, 7.6059711337 50.9942186965, 7.6010735170 50.9893957818, 7.5954408229 50.9848964308, 7.5891429658 50.9807663288, 7.5822358189 50.9770420046, 7.5747749088 50.9737689753, 7.5668592111 50.9709663289, 7.5585443845 50.9686706188, 7.5499008140 50.9669006136, 7.5410418081 50.9656666461, 7.5320231505 50.9649963383, 7.5229444163 50.9648819240, 7.5138906613 50.9653244724, 7.5049466542 50.9663340648, 7.4962125589 50.9678850482, 7.4877595375 50.9699694019, 7.4796590811 50.9725701387, 7.4720117853 50.9756526897, 7.4648750266 50.9791999185, 7.4583213670 50.9831679279, 7.4524089135 50.9875216270, 7.4472103825 50.9922171305, 7.4427555525 50.9972189713, 7.4391036448 51.0024650973, 7.4362848655 51.0079110386, 7.4343152248 51.0135121207, 7.4332398648 51.0192060633, 7.4330466759 51.0249387898, 7.4337378004 51.0306563947, 7.4353299337 51.0362961577, 7.4377818472 51.0418215319, 7.4410819894 51.0471603922, 7.4452036080 51.0522673629, 7.4500910847 51.0571056616, 7.4557181518 51.0616119189, 7.4620147970 51.0657491498, 7.4689251927 51.0694805579, 7.4763794716 51.0727601777, 7.4843210679 51.0755691945, 7.4926511494 51.0778702788, 7.5012987590 51.0796444609, 7.5101928912 51.0808727887, 7.5192333938 51.0815539395, 7.5283349299 51.0816688282, 7.5374115726 51.0812163676, 7.5463625682 51.0802132910, 7.5551305446 51.0786589197, 7.5636005340 51.0765698622, 7.5717004096 51.0739632817, 7.5793718083 51.0708745036, 7.5865141938 51.0673203757, 7.5930690652 51.0633452374, 7.5989782698 51.0589844473, 7.6041694690 51.0542731964, 7.6086123633 51.0492741437, 7.6122490161 51.0440226431, 7.6150497933 51.0385633640, 7.6169843080 51.0329679203, 7.6180517859 51.0272723017, 7.6182221731 51.0215391007))</ns0:value>
+      </ns0:geocode>
+    </ns0:area>
+  </ns0:info>
+</ns0:alert>

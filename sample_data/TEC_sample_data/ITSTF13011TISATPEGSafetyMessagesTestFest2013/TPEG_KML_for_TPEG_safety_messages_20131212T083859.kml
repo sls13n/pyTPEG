@@ -1,0 +1,1056 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:kml xmlns:ns0="http://www.opengis.net/kml/2.2" xmlns:ns1="http://www.google.com/kml/ext/2.2">
+  <ns0:Document>
+    <ns0:name>TPEG TEC, TFP</ns0:name>
+    <ns0:Style id="downArrowIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/pal4/icon28.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="globeIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/pal3/icon19.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="gasStationIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/gas_stations.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+      <ns0:LineStyle>
+        <ns0:width>2</ns0:width>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="standardIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/paddle/blu-diamond.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+      <ns0:LineStyle>
+        <ns0:width>2</ns0:width>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="transPoly">
+      <ns0:LineStyle>
+        <ns0:width>8</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>000000ff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transRedPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d0000ff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transGreenPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d00ff00</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transYellowPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d00ffff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transBluePoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7dff0000</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="BlackLine">
+      <ns0:LineStyle>
+        <ns0:width>6</ns0:width>
+        <ns0:color>ff000000</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="RedLine">
+      <ns0:LineStyle>
+        <ns0:width>5</ns0:width>
+        <ns0:color>ff0000ff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="OrangeLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff00a5ff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="YellowLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff00ffff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="DarkGreenLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff009933</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="GreenLine">
+      <ns0:LineStyle>
+        <ns0:width>3</ns0:width>
+        <ns0:color>ff00ff00</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="WhiteLine">
+      <ns0:LineStyle>
+        <ns0:width>8</ns0:width>
+        <ns0:color>ffffffff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="TecLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ffffffff</ns0:color>
+        <ns1:outerColor>dddddddd</ns1:outerColor>
+        <ns1:outerWidth>1.0</ns1:outerWidth>
+        <ns1:labelVisibility>1</ns1:labelVisibility>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Placemark>
+      <ns0:name>TEC 27328</ns0:name>
+      <ns0:description>TEC message ID : 27328, version: 25
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 11: animals on roadway
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 12555, extent 3,
+Positive direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>10.91405,48.4115</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 28179</ns0:name>
+      <ns0:description>TEC message ID : 28179, version: 26
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 5: impassibility
+sub  Cause 1: flooding
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 12515, extent 3,
+Positive direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>8.6532,48.9084</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 28181</ns0:name>
+      <ns0:description>TEC message ID : 28181, version: 26
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 6: slippery road
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 57888, extent 3,
+Positive direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>8.8883,48.82385</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 28182</ns0:name>
+      <ns0:description>TEC message ID : 28182, version: 26
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 7: aquaplaning
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 12517, extent 3,
+Positive direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>8.76555,48.9137</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 27289</ns0:name>
+      <ns0:description>TEC message ID : 27289, version: 25
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 18: visibility reduced
+sub  Cause 6: visibility reduced due to low sun glare
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 12530, extent 3,
+Negative direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>9.30305,48.6927</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 27290</ns0:name>
+      <ns0:description>TEC message ID : 27290, version: 25
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 14: vehicle on wrong carriageway
+warning level 4: danger level 3
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 12528, extent 3,
+Negative direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>9.1872,48.698</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 27291</ns0:name>
+      <ns0:description>TEC message ID : 27291, version: 25
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 5: impassibility
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 30504, extent 3,
+Negative direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>9.03525,48.742</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 27292</ns0:name>
+      <ns0:description>TEC message ID : 27292, version: 25
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 19: precipitation
+sub  Cause 2: heavy snowfall
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 54978, extent 3,
+Negative direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>8.9193,48.8125</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 27293</ns0:name>
+      <ns0:description>TEC message ID : 27293, version: 25
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 17: extreme weather conditions
+sub  Cause 1: strong winds
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 57887, extent 3,
+Negative direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>8.6901,48.9092</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 27333</ns0:name>
+      <ns0:description>TEC message ID : 27333, version: 25
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 9: hazardous driving conditions
+sub  Cause 1: rock falls
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 60560, extent 3,
+Positive direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>10.67995,48.41995</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 27299</ns0:name>
+      <ns0:description>TEC message ID : 27299, version: 25
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 18: visibility reduced
+sub  Cause 3: visibility reduced due to heavy snowfall
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 12533, extent 3,
+Negative direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>9.45575,48.6312</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 27300</ns0:name>
+      <ns0:description>TEC message ID : 27300, version: 25
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 18: visibility reduced
+sub  Cause 1: visibility reduced due to fog
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 12535, extent 3,
+Negative direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>9.62965,48.6085</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 27334</ns0:name>
+      <ns0:description>TEC message ID : 27334, version: 25
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 5: impassibility
+sub  Cause 2: danger of avalanches
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 60556, extent 3,
+Positive direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>10.57475,48.40725</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 27302</ns0:name>
+      <ns0:description>TEC message ID : 27302, version: 25
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 18: visibility reduced
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 12539, extent 3,
+Negative direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>9.8059,48.52015</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 27303</ns0:name>
+      <ns0:description>TEC message ID : 27303, version: 25
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 3: roadworks
+sub  Cause 2: road marking work
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 12543, extent 3,
+Negative direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>10.1155,48.465</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 27304</ns0:name>
+      <ns0:description>TEC message ID : 27304, version: 25
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 26: slow moving vehicles
+sub  Cause 1: slow moving maintenance vehicle
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 60551, extent 3,
+Negative direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>10.3514,48.43185</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 27305</ns0:name>
+      <ns0:description>TEC message ID : 27305, version: 25
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 3: roadworks
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 60553, extent 3,
+Negative direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>10.4599,48.41325</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 27306</ns0:name>
+      <ns0:description>TEC message ID : 27306, version: 25
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 15: rescue and recovery work in progress
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 60558, extent 3,
+Negative direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>10.61165,48.40945</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 27311</ns0:name>
+      <ns0:description>TEC message ID : 27311, version: 25
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 2: accident
+sub  Cause 7: unsecured accident
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 12552, extent 3,
+Negative direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>10.7197,48.4169</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 27312</ns0:name>
+      <ns0:description>TEC message ID : 27312, version: 25
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 13: broken down vehicles
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 36030, extent 3,
+Negative direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>10.8353,48.4174</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 27313</ns0:name>
+      <ns0:description>TEC message ID : 27313, version: 26
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 11: animals on roadway
+sub  Cause 2: herd of animals
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 60763, extent 3,
+Negative direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>11.15255,48.34175</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 27314</ns0:name>
+      <ns0:description>TEC message ID : 27314, version: 26
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 20: reckless persons
+sub  Cause 3: persons throwing objects
+warning level 4: danger level 3
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 60564, extent 3,
+Negative direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>10.95235,48.40445</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 27315</ns0:name>
+      <ns0:description>TEC message ID : 27315, version: 26
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 12: people on roadway
+sub  Cause 2: cyclists on roadway
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 12565, extent 3,
+Negative direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>11.4539,48.1671</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 27316</ns0:name>
+      <ns0:description>TEC message ID : 27316, version: 26
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 11: animals on roadway
+sub  Cause 4: large animals
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 12561, extent 3,
+Negative direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>11.3486,48.2332</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 27321</ns0:name>
+      <ns0:description>TEC message ID : 27321, version: 26
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 12: people on roadway
+sub  Cause 1: children on roadway
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 12560, extent 3,
+Positive direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>11.27,48.2806</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 27323</ns0:name>
+      <ns0:description>TEC message ID : 27323, version: 26
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 12: people on roadway
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 12557, extent 3,
+Positive direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>11.0666,48.3934</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 27327</ns0:name>
+      <ns0:description>TEC message ID : 27327, version: 25
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 5: impassibility
+sub  Cause 4: landslips
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 60563, extent 3,
+Positive direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>10.7665,48.4177</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 28224</ns0:name>
+      <ns0:description>TEC message ID : 28224, version: 25
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 10: objects on the road
+sub  Cause 1: shed load
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 12545, extent 3,
+Positive direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>10.21215,48.4395</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 29633</ns0:name>
+      <ns0:description>TEC message ID : 29633, version: 26
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 9: hazardous driving conditions
+sub  Cause 5: snow drifts
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 57894, extent 3,
+Positive direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>9.7201,48.5273</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 29634</ns0:name>
+      <ns0:description>TEC message ID : 29634, version: 26
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 10: objects on the road
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 12541, extent 3,
+Positive direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>10.02855,48.45615</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 29635</ns0:name>
+      <ns0:description>TEC message ID : 29635, version: 25
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 6: slippery road
+sub  Cause 5: ice on road
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 57892, extent 3,
+Positive direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>9.538,48.6318</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 29636</ns0:name>
+      <ns0:description>TEC message ID : 29636, version: 25
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 6: slippery road
+sub  Cause 6: black ice on road
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 12536, extent 3,
+Positive direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>9.66255,48.584</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 29637</ns0:name>
+      <ns0:description>TEC message ID : 29637, version: 25
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 6: slippery road
+sub  Cause 7: oil on road
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 57919, extent 3,
+Positive direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>9.2652,48.6955</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 29638</ns0:name>
+      <ns0:description>TEC message ID : 29638, version: 25
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 6: slippery road
+sub  Cause 2: fuel on road
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 57890, extent 3,
+Positive direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>9.3972,48.65305</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 29639</ns0:name>
+      <ns0:description>TEC message ID : 29639, version: 25
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 6: slippery road
+sub  Cause 3: mud on road
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 12522, extent 3,
+Positive direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>9.01405,48.7807</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 29640</ns0:name>
+      <ns0:description>TEC message ID : 29640, version: 25
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 6: slippery road
+sub  Cause 8: loose chippings
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 12525, extent 3,
+Positive direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>9.1395,48.7096</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 28369</ns0:name>
+      <ns0:description>TEC message ID : 28369, version: 25
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 19: precipitation
+sub  Cause 1: heavy rain
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 54977, extent 3,
+Negative direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>8.7884,48.8788</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 27301</ns0:name>
+      <ns0:description>TEC message ID : 27301, version: 25
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 18: visibility reduced
+sub  Cause 2: visibility reduced due to smoke
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 12537, extent 3,
+Negative direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>9.6438,48.54605</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+    <ns0:Placemark>
+      <ns0:name>TEC 28223</ns0:name>
+      <ns0:description>TEC message ID : 28223, version: 25
+Expiration Time: 2015-12-08 14:53:31
+
+effect Code 1: traffic flow unknown
+
+main Cause 10: objects on the road
+sub  Cause 5: fallen trees
+warning level 3: danger level 2
+
+
+TEC message location: A8
+
+LTCC 13, LTN 1,
+PLOC 12548, extent 3,
+Positive direction</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#downArrowIcon</ns0:styleUrl>
+      <ns0:Point>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:coordinates>10.4293,48.41275</ns0:coordinates>
+      </ns0:Point>
+    </ns0:Placemark>
+  </ns0:Document>
+</ns0:kml>

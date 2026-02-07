@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:kml xmlns:ns0="http://www.opengis.net/kml/2.2" xmlns:ns1="http://www.google.com/kml/ext/2.2">
+  <ns0:Document>
+    <ns0:name>CAP messages</ns0:name>
+    <ns0:Style id="downArrowIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/pal4/icon28.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="trafficIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/cabs.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="trafficWithAccidentIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/caution.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="globeIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/pal3/icon19.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="gasStationIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/gas_stations.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+      <ns0:LineStyle>
+        <ns0:width>2</ns0:width>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="standardIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/paddle/blu-diamond.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+      <ns0:LineStyle>
+        <ns0:width>2</ns0:width>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="transPoly">
+      <ns0:LineStyle>
+        <ns0:width>8</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>000000ff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transRedPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d0000ff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transGreenPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d00ff00</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transYellowPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d00ffff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transBluePoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7dff0000</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="BlackLine">
+      <ns0:LineStyle>
+        <ns0:width>6</ns0:width>
+        <ns0:color>ff000000</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="RedLine">
+      <ns0:LineStyle>
+        <ns0:width>5</ns0:width>
+        <ns0:color>ff0000ff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="OrangeLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff00a5ff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="YellowLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff00ffff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="DarkGreenLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff009933</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="GreenLine">
+      <ns0:LineStyle>
+        <ns0:width>3</ns0:width>
+        <ns0:color>ff00ff00</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="WhiteLine">
+      <ns0:LineStyle>
+        <ns0:width>8</ns0:width>
+        <ns0:color>ffffffff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="TecLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ffffffff</ns0:color>
+        <ns1:outerColor>dddddddd</ns1:outerColor>
+        <ns1:outerWidth>1.0</ns1:outerWidth>
+        <ns1:labelVisibility>1</ns1:labelVisibility>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Placemark>
+      <ns0:name>NOAA-NWS-ALERTS-FL125AC1F18F78.SevereWeatherStatement.125AC1F1BB9CFL.TAESVSTAE.436fa8f32d69635df53b295e14c423de</ns0:name>
+      <ns0:description>..headline = Severe Weather Statement issued October 10 at 3:02PM EDT until October 10 at 4:15PM EDT by NWS Tallahassee
+.....event = Severe Weather Statement
+.......area = Bay; Gulf; Liberty
+
+ALERT -- (Component type=CAP_alert) 
+  Elements 
+  +identifier = NOAA-NWS-ALERTS-FL125AC1F18F78.SevereWeatherStatement.125AC1F1BB9CFL.TAESVSTAE.436fa8f32d69635df53b295e14c423de
+  +sender     = w-nws.webmaster@noaa.gov
+  +sent       = 2018-10-10T15:02:00-04:00
+  +status     = Actual
+  +msgType    = Alert
+  +scope      = Public
+  +note       = Alert for Bay; Gulf; Liberty (Florida) Issued by the National Weather Service
+  INFO -- (Component type=CAP_info) 
+    Elements 
+    +category    = Met
+    +event       = Severe Weather Statement
+    +urgency     = Immediate
+    +severity    = Severe
+    +certainty   = Observed
+    +effective   = 2018-10-10T15:02:00-04:00
+    +expires     = 2018-10-10T16:15:00-04:00
+    +senderName  = NWS Tallahassee (the Florida Peninsula)
+    +headline    = Severe Weather Statement issued October 10 at 3:02PM EDT until October 10 at 4:15PM EDT by NWS Tallahassee
+    +description = ...AN EXTREME WIND WARNING REMAINS IN EFFECT UNTIL 415 PM EDT/315 PM
+CDT/ FOR SOUTHERN JACKSON...NORTHWESTERN GULF...BAY...CALHOUN...
+NORTHWESTERN LIBERTY AND SOUTHEASTERN WASHINGTON COUNTIES...
+At 300 PM EDT/200 PM CDT/, National Weather Service Doppler radar
+indicated extreme winds, associated with the eyewall of Hurricane
+Michael, were continuing to move inland. THIS IS AN EXTREMELY
+DANGEROUS AND LIFE-THREATENING SITUATION!
+PRECAUTIONARY/PREPAREDNESS ACTIONS...
+TAKE COVER NOW! Treat these imminent extreme winds as if a tornado
+was approaching and move immediately to the safe room in your
+shelter. Take action now to protect your life!
+A Tornado Watch remains in effect until 500 PM EDT/400 PM CDT/ for
+Big Bend and the Panhandle of Florida. A Tornado Watch also remains
+in effect until 200 AM EDT/100 AM CDT/ for Big Bend Florida.
+    +instruction = 
+    Parameters 
+    +parameter
+        valueName = WMOHEADER
+        value     = 
+    +parameter
+        valueName = UGC
+        value     = FLC005-013-045-063-077-133
+    +parameter
+        valueName = VTEC
+        value     = /O.CON.KTAE.EW.W.0002.000000T0000Z-181010T2015Z/
+    +parameter
+        valueName = TIME...MOT...LOC
+        value     = 1900Z 214DEG 20KT 3046 8517
+    AREA -- (Component type=CAP_area) 
+      Elements 
+      +areaDesc = Bay; Gulf; Liberty
+      +polygon  = 30.72,-85.66 30.67,-85.02 30.62,-84.91 30.61,-84.93 30.6,-84.88 30.53,-84.88 30.53,-84.83 30.51,-84.81 30.27,-84.91 30.09,-85.18 30.08,-85.41 30.21,-85.69 30.4,-85.79 30.72,-85.66
+      Parameters 
+      +geocode
+          valueName = FIPS6
+          value     = 012005
+      +geocode
+          valueName = FIPS6
+          value     = 012045
+      +geocode
+          valueName = FIPS6
+          value     = 012077
+      +geocode
+          valueName = UGC
+          value     = FLC005
+      +geocode
+          valueName = UGC
+          value     = FLC045
+      +geocode
+          valueName = UGC
+          value     = FLC077
+---- End ALERT -- (Component type=CAP_alert) ----
+</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#transGreenPoly</ns0:styleUrl>
+      <ns0:Polygon>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:outerBoundaryIs>
+          <ns0:LinearRing>
+            <ns0:coordinates>
+		 -85.66,30.72 
+		 -85.02,30.67 
+		 -84.91,30.62 
+		 -84.93,30.61 
+		 -84.88,30.6 
+		 -84.88,30.53 
+		 -84.83,30.53 
+		 -84.81,30.51 
+		 -84.91,30.27 
+		 -85.18,30.09 
+		 -85.41,30.08 
+		 -85.69,30.21 
+		 -85.79,30.4 
+		 -85.66,30.72 
+		</ns0:coordinates>
+          </ns0:LinearRing>
+        </ns0:outerBoundaryIs>
+      </ns0:Polygon>
+    </ns0:Placemark>
+  </ns0:Document>
+</ns0:kml>

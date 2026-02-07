@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:kml xmlns:ns0="http://www.opengis.net/kml/2.2" xmlns:ns1="http://www.google.com/kml/ext/2.2">
+  <ns0:Document>
+    <ns0:name>CAP messages</ns0:name>
+    <ns0:Style id="downArrowIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/pal4/icon28.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="trafficIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/cabs.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="trafficWithAccidentIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/caution.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="globeIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/pal3/icon19.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="gasStationIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/gas_stations.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+      <ns0:LineStyle>
+        <ns0:width>2</ns0:width>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="standardIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/paddle/blu-diamond.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+      <ns0:LineStyle>
+        <ns0:width>2</ns0:width>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="transPoly">
+      <ns0:LineStyle>
+        <ns0:width>8</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>000000ff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transRedPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d0000ff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transGreenPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d00ff00</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transYellowPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d00ffff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transBluePoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7dff0000</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="BlackLine">
+      <ns0:LineStyle>
+        <ns0:width>6</ns0:width>
+        <ns0:color>ff000000</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="RedLine">
+      <ns0:LineStyle>
+        <ns0:width>5</ns0:width>
+        <ns0:color>ff0000ff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="OrangeLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff00a5ff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="YellowLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff00ffff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="DarkGreenLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff009933</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="GreenLine">
+      <ns0:LineStyle>
+        <ns0:width>3</ns0:width>
+        <ns0:color>ff00ff00</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="WhiteLine">
+      <ns0:LineStyle>
+        <ns0:width>8</ns0:width>
+        <ns0:color>ffffffff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="TecLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ffffffff</ns0:color>
+        <ns1:outerColor>dddddddd</ns1:outerColor>
+        <ns1:outerWidth>1.0</ns1:outerWidth>
+        <ns1:labelVisibility>1</ns1:labelVisibility>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Placemark>
+      <ns0:name>DE-SH-KI-SE014-20210820-18-003</ns0:name>
+      <ns0:description>..headline = Gefahr durch abgestürzte Satellitenteile
+.....event = Gefahrendurchsage
+.......area = Landkreis/Stadt: Kreisfreie Stadt Neumünster, Kreisfreie Stadt Kiel, Kreis Segeberg, Kreis Plön, Kreis Rendsburg-Eckernförde
+Gemeinde/Stadt: Stadt Bad Oldesloe, Gemeinde Nienwohld, Gemeinde Neritz, Gemeinde Feldhorst, Gemeinde Travenbrück, Gemeinde Grabau, Gemeinde Brokstedt
+
+ALERT -- (Component type=CAP_alert) 
+  Elements 
+  +identifier = DE-SH-KI-SE014-20210820-18-003
+  +sender     = DE-SH-KI-SE014
+  +sent       = 2021-08-20T14:20:57+02:00
+  +status     = Actual
+  +msgType    = Alert
+  +scope      = Public
+  INFO -- (Component type=CAP_info) 
+    Elements 
+    +language    = DE
+    +category    = Other
+    +event       = Gefahrendurchsage
+    +urgency     = Immediate
+    +severity    = Extreme
+    +certainty   = Observed
+    +headline    = Gefahr durch abgestürzte Satellitenteile
+    +description = Zwischen dem westlichen Schleswig-Holstein und den westlichen Vororten von Lübeck ist es zum Absturz von Satellitenteilen gekommen. Sollten Sie in diesem Gebiet unterwegs sein, kann es zu Verzögerungen kommen. Betroffen sind sämtliche Straßen (ins. A1 und A20) sowie der Schienenverkehr.
+    +instruction = Informieren Sie sich in den Medien, zum Beispiel im Lokalradio.
+Umfahren Sie das betroffene Gebiet weiträumig.
+Vermeiden Sie Autofahrten.
+Helfen Sie Kindern und anderen hilfsbedürftigen Personen, aber ohne sich selbst zu gefährden.
+Lassen Sie Haus- und Nutztiere nicht ins Freie.
+Suchen Sie sofort Schutz in einem Gebäude.
+
+    +contact     = 
+    Parameters 
+    +eventCode
+        valueName = profile:DE-BBK-EVENTCODE:01.00R
+        value     = BBK-EVC-053
+    +parameter
+        valueName = instructionCode
+        value     = BBK-ISC-009 BBK-ISC-004 BBK-ISC-006 BBK-ISC-021 BBK-ISC-038 BBK-ISC-086 shortCode:BBK-ISC-011
+    +parameter
+        valueName = sender_langname
+        value     = Lage- und Führungszentrum Schleswig-Holstein
+    +parameter
+        valueName = sender_signature
+        value     = Innenministerium des Landes Schleswig-Holstein
+Mühlenweg 166
+24116 Kiel
+    +parameter : 1 occurrence  of valueName "warnVerwaltungsbereiche"
+    AREA -- (Component type=CAP_area) 
+      Elements 
+      +areaDesc = Landkreis/Stadt: Kreisfreie Stadt Neumünster, Kreisfreie Stadt Kiel, Kreis Segeberg, Kreis Plön, Kreis Rendsburg-Eckernförde
+Gemeinde/Stadt: Stadt Bad Oldesloe, Gemeinde Nienwohld, Gemeinde Neritz, Gemeinde Feldhorst, Gemeinde Travenbrück, Gemeinde Grabau, Gemeinde Brokstedt
+      Parameters 
+      +geocode : 1 occurrence  of valueName "WKT"
+---- End ALERT -- (Component type=CAP_alert) ----
+</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#transBluePoly</ns0:styleUrl>
+      <ns0:Polygon>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:outerBoundaryIs>
+          <ns0:LinearRing>
+            <ns0:coordinates>
+		 10.3620503424,54.1025407488 
+		 10.3791259877,54.0762448015 
+		 10.393638186,54.0497243753 
+		 10.4054478874,54.0232426141 
+		 10.4144621196,53.9970530215 
+		 10.4205730272,53.9714091212 
+		 10.4237487793,53.9465543723 
+		 10.4239576857,53.9227410101 
+		 10.4211966027,53.9001757889 
+		 10.4154934399,53.8791008159 
+		 10.4069339761,53.8596944076 
+		 10.3955735364,53.8421620022 
+		 10.3815411252,53.8266720643 
+		 10.3649633913,53.8133570128 
+		 10.3459961753,53.8023488338 
+		 10.324839077,53.7937610002 
+		 10.301674263,53.7876712386 
+		 10.2767278574,53.7841388627 
+		 10.250239471,53.7831961845 
+		 10.2224469794,53.784839733 
+		 10.1936335674,53.7890747388 
+		 10.1640500303,53.7958440884 
+		 10.1339924667,53.8050814818 
+		 10.1037415756,53.8167030787 
+		 10.0735778248,53.8305983676 
+		 10.0437817011,53.8466301658 
+		 10.0146493589,53.8646434684 
+		 9.9864474346,53.8844748121 
+		 9.95945812234,53.9059249079 
+		 9.9339343316,53.9287859383 
+		 9.91011489485,53.9528413816 
+		 9.88825502698,53.9778657403 
+		 9.8685346834,54.0036161966 
+		 9.85116529255,54.0298407419 
+		 9.83631378787,54.0562966608 
+		 9.8241170663,54.0827234121 
+		 9.81472815863,54.1088692209 
+		 9.80822413825,54.1344826861 
+		 9.80466710426,54.1593213081 
+		 9.80410359977,54.1831335039 
+		 9.80655010627,54.2057125957 
+		 9.81197588213,54.2268160618 
+		 9.82035063639,54.2462640501 
+		 9.83158126471,54.2638499788 
+		 9.84555891169,54.2794031379 
+		 9.86215892255,54.2927887212 
+		 9.88120936318,54.3038721557 
+		 9.90255280113,54.312536674 
+		 9.925954603,54.318702007 
+		 9.9511948305,54.3223057992 
+		 9.97802252201,54.3233129851 
+		 10.0061714912,54.32172471 
+		 10.035390211,54.317533201 
+		 10.0653516265,54.3107944473 
+		 10.0957904229,54.3015731636 
+		 10.1264113024,54.2899525696 
+		 10.1568895177,54.2760434178 
+		 10.1869479085,54.2599832736 
+		 10.2162801164,54.2419282425 
+		 10.2445965508,54.2220435341 
+		 10.2716406277,54.2005302054 
+		 10.2971420836,54.1775986486 
+		 10.3208629705,54.153468072 
+		 10.3425669928,54.1283667755 
+		 10.3620503424,54.1025407488 
+		</ns0:coordinates>
+          </ns0:LinearRing>
+        </ns0:outerBoundaryIs>
+      </ns0:Polygon>
+    </ns0:Placemark>
+  </ns0:Document>
+</ns0:kml>

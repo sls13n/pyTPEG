@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:kml xmlns:ns0="http://www.opengis.net/kml/2.2" xmlns:ns1="http://www.google.com/kml/ext/2.2">
+  <ns0:Document>
+    <ns0:name>CAP messages</ns0:name>
+    <ns0:Style id="downArrowIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/pal4/icon28.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="trafficIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/cabs.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="trafficWithAccidentIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/caution.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="globeIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/pal3/icon19.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="gasStationIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/gas_stations.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+      <ns0:LineStyle>
+        <ns0:width>2</ns0:width>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="standardIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/paddle/blu-diamond.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+      <ns0:LineStyle>
+        <ns0:width>2</ns0:width>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="transPoly">
+      <ns0:LineStyle>
+        <ns0:width>8</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>000000ff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transRedPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d0000ff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transGreenPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d00ff00</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transYellowPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d00ffff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transBluePoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7dff0000</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="BlackLine">
+      <ns0:LineStyle>
+        <ns0:width>6</ns0:width>
+        <ns0:color>ff000000</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="RedLine">
+      <ns0:LineStyle>
+        <ns0:width>5</ns0:width>
+        <ns0:color>ff0000ff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="OrangeLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff00a5ff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="YellowLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff00ffff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="DarkGreenLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff009933</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="GreenLine">
+      <ns0:LineStyle>
+        <ns0:width>3</ns0:width>
+        <ns0:color>ff00ff00</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="WhiteLine">
+      <ns0:LineStyle>
+        <ns0:width>8</ns0:width>
+        <ns0:color>ffffffff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="TecLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ffffffff</ns0:color>
+        <ns1:outerColor>dddddddd</ns1:outerColor>
+        <ns1:outerWidth>1.0</ns1:outerWidth>
+        <ns1:labelVisibility>1</ns1:labelVisibility>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Placemark>
+      <ns0:name>NOAA-NWS-ALERTS-SC125AC21C9C2C.FloodWarning.125AC22BDE08SC.CHSFLSCHS.5c337764c1a738dc1d31c7ce2efc9ab0</ns0:name>
+      <ns0:description>..headline = Flood Warning issued October 12 at 9:15PM EDT until further notice by NWS Charleston
+.....event = Flood Warning
+.......area = Berkeley; Georgetown; Williamsburg
+
+ALERT -- (Component type=CAP_alert) 
+  Elements 
+  +identifier = NOAA-NWS-ALERTS-SC125AC21C9C2C.FloodWarning.125AC22BDE08SC.CHSFLSCHS.5c337764c1a738dc1d31c7ce2efc9ab0
+  +sender     = w-nws.webmaster@noaa.gov
+  +sent       = 2018-10-12T21:15:00-04:00
+  +status     = Actual
+  +msgType    = Alert
+  +scope      = Public
+  +note       = Alert for Berkeley; Georgetown; Williamsburg (South Carolina) Issued by the National Weather Service
+  INFO -- (Component type=CAP_info) 
+    Elements 
+    +category    = Met
+    +event       = Flood Warning
+    +urgency     = Expected
+    +severity    = Moderate
+    +certainty   = Likely
+    +effective   = 2018-10-12T21:15:00-04:00
+    +expires     = 2018-10-13T21:14:00-04:00
+    +senderName  = NWS Charleston (the Southern end of South Carolina and Eastern Georgia)
+    +headline    = Flood Warning issued October 12 at 9:15PM EDT until further notice by NWS Charleston
+    +description = The Flood Warning continues for
+The Santee River near Jamestown.
+* At 8 PM Friday the stage was 10.9 feet.
+* Flood stage is 10.0 feet.
+* Minor flooding is occurring.
+* Forecast, the river will rise to near 11.7 feet by Saturday morning
+then begin a slow fall.
+* At 12.0 feet, several dirt logging roads are impassable.
+&amp;&amp;
+    +instruction = 
+    Parameters 
+    +parameter
+        valueName = WMOHEADER
+        value     = 
+    +parameter
+        valueName = UGC
+        value     = SCC015-043-089
+    +parameter
+        valueName = VTEC
+        value     = /O.CON.KCHS.FL.W.0013.000000T0000Z-000000T0000Z/
+/JAMS1.1.ER.181012T1122Z.181013T1200Z.000000T0000Z.NO/
+    +parameter
+        valueName = TIME...MOT...LOC
+        value     = 
+    AREA -- (Component type=CAP_area) 
+      Elements 
+      +areaDesc = Berkeley; Georgetown; Williamsburg
+      +polygon  = 33.47,-80.02 33.54,-79.98 33.25,-79.37 33.21,-79.38 33.2,-79.51 33.29,-79.76 33.47,-80.02
+      Parameters 
+      +geocode
+          valueName = FIPS6
+          value     = 045015
+      +geocode
+          valueName = FIPS6
+          value     = 045043
+      +geocode
+          valueName = FIPS6
+          value     = 045089
+      +geocode
+          valueName = UGC
+          value     = SCC015
+      +geocode
+          valueName = UGC
+          value     = SCC043
+      +geocode
+          valueName = UGC
+          value     = SCC089
+---- End ALERT -- (Component type=CAP_alert) ----
+</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#transGreenPoly</ns0:styleUrl>
+      <ns0:Polygon>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:outerBoundaryIs>
+          <ns0:LinearRing>
+            <ns0:coordinates>
+		 -80.02,33.47 
+		 -79.98,33.54 
+		 -79.37,33.25 
+		 -79.38,33.21 
+		 -79.51,33.2 
+		 -79.76,33.29 
+		 -80.02,33.47 
+		</ns0:coordinates>
+          </ns0:LinearRing>
+        </ns0:outerBoundaryIs>
+      </ns0:Polygon>
+    </ns0:Placemark>
+  </ns0:Document>
+</ns0:kml>

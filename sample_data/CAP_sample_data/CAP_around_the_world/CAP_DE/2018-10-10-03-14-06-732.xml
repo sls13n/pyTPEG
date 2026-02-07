@@ -1,0 +1,985 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- This is a Common Alerting Protocol (CAP) message issued by Germany's National Meteorological Service, Deutscher Wetterdienst (DWD). Visit https://www.dwd.de -->
+<alert xmlns="urn:oasis:names:tc:emergency:cap:1.2">
+  <identifier>2.49.0.1.276.0.DWD.PVW.1539140940000.ed7a6e2c-4038-4b94-a931-c90f90c11b60.ENG</identifier>
+  <sender>CAP@dwd.de</sender>
+  <sent>2018-10-10T05:09:00+02:00</sent>
+  <status>Actual</status>
+  <msgType>Update</msgType>
+  <source>PVW</source>
+  <scope>Public</scope>
+  <code>id:2.49.0.1.276.0.DWD.PVW.1539140940000.ed7a6e2c-4038-4b94-a931-c90f90c11b60</code>
+  <references>CAP@dwd.de,2.49.0.1.276.0.DWD.PVW.1539126420000.5b68ecf4-c92f-4038-a2b8-0cf442f5f4d3.ENG,2018-10-10T01:07:00+02:00 CAP@dwd.de,2.49.0.1.276.0.DWD.PVW.1539117060000.3ed3c1b3-a572-4420-a41b-d39b4c8b704a.ENG,2018-10-09T22:31:00+02:00</references>
+  <info>
+    <language>en-US</language>
+    <category>Met</category>
+    <event>fog</event>
+    <responseType>None</responseType>
+    <urgency>Immediate</urgency>
+    <severity>Minor</severity>
+    <certainty>Likely</certainty>
+    <eventCode>
+      <valueName>PROFILE_VERSION</valueName>
+      <value>2.1</value>
+    </eventCode>
+    <eventCode>
+      <valueName>LICENSE</valueName>
+      <value>Geobasisdaten: Copyright Bundesamt für Kartographie und Geodäsie, Frankfurt am Main, 2013</value>
+    </eventCode>
+    <eventCode>
+      <valueName>II</valueName>
+      <value>59</value>
+    </eventCode>
+    <eventCode>
+      <valueName>GROUP</valueName>
+      <value>FOG</value>
+    </eventCode>
+    <eventCode>
+      <valueName>AREA_COLOR</valueName>
+      <value>255 255 0</value>
+    </eventCode>
+    <effective>2018-10-10T05:09:00+02:00</effective>
+    <onset>2018-10-10T05:09:00+02:00</onset>
+    <expires>2018-10-10T08:00:00+02:00</expires>
+    <senderName>DWD / Nationales Warnzentrum Offenbach</senderName>
+    <headline>Official weather warning: warning of fog</headline>
+    <description>There is a risk of fog. (Level 1 of 1).
+Height range: &lt; 600 m; occurrence: particularly in low-lying river areas and valleys; Visibility: &lt; 150 m</description>
+    <instruction/>
+    <web>http://www.wettergefahren.de</web>
+    <contact>Deutscher Wetterdienst</contact>
+    <parameter>
+      <valueName>level</valueName>
+      <value>Flüsse und Täler</value>
+    </parameter>
+    <parameter>
+      <valueName>visibility</valueName>
+      <value>&lt;150 [m]</value>
+    </parameter>
+    <parameter>
+      <valueName>fog</valueName>
+      <value>verbreitet</value>
+    </parameter>
+    <area>
+      <areaDesc>polygonal event area</areaDesc>
+      <polygon>48.526658,9.834191 48.542302,9.84882 48.539974,9.872494 48.572003,9.886649 48.5698,9.919995 48.585229,9.940644 48.582725,9.954511 48.59056,9.960374 48.594698,9.964259 48.615431,9.969158 48.631859,9.943134 48.642613,9.921041 48.666892,9.93209 48.666459,9.956989 48.672635,9.969607 48.69781,9.962934 48.714209,9.994553 48.727379,9.987674 48.736881,10.002761 48.765158,10.023843 48.747154,10.045247 48.709631,10.053085 48.715135,10.073963 48.70392,10.110433 48.724407,10.123793 48.726238,10.147335 48.748653,10.175377 48.776716,10.179966 48.780187,10.206792 48.819259,10.220015 48.809796,10.239618 48.82341,10.267521 48.823503,10.301761 48.812421,10.333153 48.822974,10.342693 48.819926,10.387017 48.807491,10.421425 48.810606,10.441354 48.806379,10.441251 48.780337,10.428477 48.744604,10.424124 48.730461,10.443585 48.735792,10.461076 48.721629,10.463222 48.696788,10.487027 48.670659,10.464957 48.661196,10.41072 48.63256,10.417461 48.624692,10.386778 48.629049,10.374545 48.626353,10.339614 48.595518,10.334423 48.603867,10.319548 48.60398,10.296823 48.612346,10.293886 48.613373,10.250859 48.594832,10.231995 48.582535,10.246311 48.569353,10.230116 48.582985,10.202176 48.579535,10.183807 48.558698,10.186546 48.549878,10.170669 48.55159,10.154353 48.553827,10.147679 48.569511,10.10843 48.571789,10.105621 48.541035,10.098936 48.542611,10.082618 48.531476,10.072329 48.524347,10.052181 48.526238,10.050675 48.527063,10.043682 48.511925,10.004969 48.504406,9.986751 48.504398,9.979187 48.496038,9.944533 48.48105,9.968588 48.467659,9.971938 48.446106,9.957156 48.451786,9.940426 48.43364,9.905773 48.455691,9.89803 48.488659,9.844976 48.492804,9.797937 48.497463,9.799534 48.51314,9.804506 48.507961,9.821969 48.526658,9.834191 48.526658,9.834191</polygon>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>polygonal event area</areaDesc>
+      <polygon>47.631508,13.07321 47.627048,13.064839 47.636338,13.061057 47.638192,13.065954 47.631508,13.07321 47.631508,13.07321</polygon>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>polygonal event area</areaDesc>
+      <polygon>48.500037,10.242811 48.49987,10.236507 48.505411,10.233717 48.505816,10.241522 48.500037,10.242811 48.500037,10.242811</polygon>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>polygonal event area</areaDesc>
+      <polygon>47.892179,11.980794 47.909158,11.9764 47.920079,11.96001 47.9435,11.945939 47.982709,11.92652 47.994366,11.93504 47.983374,11.968051 47.961001,11.998264 47.97141,12.027659 47.970742,12.062941 47.979259,12.071856 47.95909,12.075214 47.954481,12.096354 47.960734,12.110798 47.969021,12.121725 47.962958,12.150373 47.95743,12.156344 47.962985,12.202791 47.974038,12.213954 47.969624,12.228674 47.97069,12.255662 47.981074,12.277213 47.965736,12.304806 47.969806,12.333084 47.959304,12.351261 47.954349,12.383493 47.943329,12.399425 47.951882,12.42 47.936687,12.430118 47.919682,12.413898 47.921867,12.44448 47.933392,12.465823 47.929665,12.490382 47.943426,12.506341 47.948701,12.530858 47.969435,12.531337 47.973618,12.546265 47.996145,12.542778 47.995609,12.575903 47.987036,12.604954 47.970596,12.602766 47.973026,12.62894 47.956966,12.65096 47.972905,12.671239 47.958348,12.691286 47.946601,12.73797 47.960035,12.733775 47.97638,12.748036 47.981435,12.77141 47.986599,12.771799 48.020945,12.781217 48.043428,12.80766 48.020071,12.844679 48.005629,12.857193 47.96241,12.875816 47.957294,12.907461 47.939904,12.921215 47.938365,12.938283 47.90024,12.965945 47.868469,12.987696 47.840641,13.00151 47.819106,12.978714 47.779833,12.939633 47.770173,12.928074 47.747996,12.935507 47.738255,12.914208 47.723851,12.905658 47.709598,12.930025 47.707376,12.987051 47.713147,12.998341 47.722716,13.017576 47.709452,13.048304 47.686952,13.07996 47.672822,13.076683 47.649516,13.088408 47.641726,13.063881 47.634877,13.04804 47.625483,13.059146 47.602897,13.058395 47.601428,13.06272 47.586558,13.064585 47.576588,13.041576 47.55744,13.055659 47.534852,13.031254 47.52382,13.04593 47.492017,13.047249 47.486669,13.027228 47.464132,13.000845 47.47773,12.98889 47.474182,12.972272 47.496918,12.908707 47.551361,12.918354 47.553276,12.93684 47.571387,12.960975 47.609775,12.943125 47.65857,12.884277 47.643111,12.86221 47.637724,12.810277 47.626943,12.799841 47.632935,12.780846 47.667687,12.754759 47.679113,12.733432 47.682056,12.695715 47.696414,12.715687 47.734419,12.719312 47.740619,12.760821 47.753541,12.787022 47.755585,12.814265 47.755222,12.848779 47.765496,12.83558 47.783302,12.831634 47.788613,12.772991 47.804362,12.763638 47.81018,12.743079 47.790284,12.736111 47.786826,12.720771 47.76793,12.717231 47.784074,12.670037 47.78246,12.646303 47.792844,12.637124 47.788273,12.600698 47.761125,12.580626 47.75518,12.524117 47.75116,12.516928 47.709448,12.526527 47.706673,12.502342 47.695099,12.491023 47.689577,12.442363 47.693858,12.412124 47.684054,12.363893 47.696835,12.337543 47.687828,12.277463 47.679145,12.255816 47.694183,12.241317 47.732535,12.264435 47.742954,12.257183 47.718467,12.226291 47.70053,12.184682 47.700847,12.16404 47.689908,12.166894 47.643389,12.199755 47.631109,12.203903 47.606853,12.202533 47.614715,12.176111 47.605902,12.138695 47.611308,12.115015 47.60966,12.083449 47.618822,12.060811 47.654923,12.035765 47.675069,12.038731 47.700909,12.024712 47.702997,12.012313 47.736103,12.02189 47.744602,12.055255 47.768271,12.05088 47.819304,12.030732 47.822824,11.99979 47.833641,11.96861 47.82828,11.953713 47.842673,11.946465 47.846052,11.964008 47.892179,11.980794 47.892179,11.980794</polygon>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>polygonal event area</areaDesc>
+      <polygon>48.070202,9.085864 48.085522,9.05004 48.069758,9.03289 48.061349,8.99552 48.029987,8.992851 48.032934,8.977607 48.035609,8.96062 48.057179,8.936024 48.060523,8.940864 48.059667,8.987001 48.070514,8.995776 48.086462,8.976897 48.092239,9.001206 48.10968,9.027002 48.092248,9.089632 48.100868,9.108929 48.133972,9.157274 48.154063,9.173048 48.147328,9.179897 48.153626,9.228288 48.157558,9.256096 48.152705,9.262234 48.15868,9.288077 48.182562,9.315492 48.195698,9.318861 48.218953,9.306798 48.239231,9.347506 48.219501,9.368141 48.233441,9.421901 48.267186,9.432379 48.293757,9.42788 48.315849,9.394789 48.334892,9.41127 48.336216,9.448556 48.308228,9.500527 48.315585,9.533528 48.299944,9.551629 48.283,9.527385 48.278697,9.505555 48.254554,9.526069 48.24542,9.500097 48.232612,9.490137 48.203602,9.48659 48.209037,9.463921 48.196701,9.399121 48.180441,9.390572 48.163952,9.404934 48.161126,9.42553 48.140443,9.425068 48.140814,9.392371 48.121688,9.392366 48.104517,9.355584 48.112335,9.326297 48.094053,9.315903 48.08962,9.279658 48.090814,9.255527 48.065181,9.230302 48.052223,9.270272 48.050513,9.271656 48.039947,9.26346 48.037913,9.249811 48.040625,9.226819 48.032753,9.182294 48.034026,9.168547 48.021716,9.130446 48.042161,9.113893 48.058608,9.121057 48.055306,9.091562 48.070202,9.085864 48.070202,9.085864</polygon>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Flintsbach a. Inn</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809187131</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Altheim (Alb)</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808425005</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Bad Endorf</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809187128</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Frasdorf</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809187132</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Chiemsee</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809187123</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Breitbrunn a. Chiemsee</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809187121</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Brannenburg</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809187120</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Eggstätt</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809187125</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Börslingen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808425022</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Aschau i. Chiemgau</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809187114</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Waging a. See</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809189162</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Vachendorf</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809189161</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Unterwössen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809189160</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Bernau a. Chiemsee</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809187118</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Hayingen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808415034</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Bad Aibling</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809187117</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Wonneberg</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809189165</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Große Kreisstadt Traunstein</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809189155</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Traunreut</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809189154</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Ballendorf</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808425013</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Übersee</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809189159</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Staudach-Egerndach</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809189146</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Beuron</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808437005</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Siegsdorf</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809189145</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Surberg</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809189148</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Schleching</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809189141</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Nußdorf</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809189130</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Marquartstein</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809189129</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Petting</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809189135</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Syrgenstein</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809773170</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Grassau</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809189120</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Kirchanschöring</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809189127</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Bingen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808437008</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Heidenheim an der Brenz</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808135019</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Zwiefalten</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808415085</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Giengen an der Brenz</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808135016</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Neresheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808136045</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Rotter Forst-Süd</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809187452</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Herbrechtingen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808135020</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Holzkirch</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808425062</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Dischingen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808135010</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Gerstetten</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808135015</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Tuntenhausen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809187179</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Stephanskirchen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809187177</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Steinheim am Albuch</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808135032</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Neenstetten</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808425083</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Vogtareuth</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809187181</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Nattheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808135026</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Rohrdorf</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809187169</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Rimsting</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809187168</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Lonsee</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808425075</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Söchtenau</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809187174</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Sigmaringen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808437104</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Samerberg</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809187172</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Prutting</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809187163</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Prien a. Chiemsee</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809187162</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Riedering</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809187167</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Raubling</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809187165</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Dornstadt</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808425031</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Neubeuern</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809187154</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Inzigkofen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808437059</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Oberaudorf</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809187157</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Breitingen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808425024</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Nußdorf a. Inn</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809187156</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Chiemsee (See)</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809189451</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Höslwang</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809187145</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Kolbermoor</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809187150</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Waginger See</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809189452</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Kiefersfelden</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809187148</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Halfing</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809187139</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Gstadt a. Chiemsee</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809187138</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Großkarolinenfeld</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809187137</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Bachhagel</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809773112</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Langenenslingen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808426067</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Schechen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809187142</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Westerstetten</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808425135</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Weidenstetten</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>808425130</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Saaldorf-Surheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809172130</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Schneizlreuth</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809172131</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Piding</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809172128</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Teisendorf</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809172134</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Schönau a. Königssee</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809172132</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Laufen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809172122</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Marktschellenberg</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809172124</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Große Kreisstadt Bad Reichenhall</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809172114</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Bayerisch Gmain</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809172115</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Anger</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809172112</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Freilassing</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809172118</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Berchtesgaden</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809172116</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Bischofswiesen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809172117</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Ainring</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809172111</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Chieming</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809189114</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Stadt Rosenheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809163000</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Bergen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809189113</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Grabenstätt</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809189119</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Gemeinde Fridolfing</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809189118</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Ziertheim</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809773186</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>Mitgliedsgemeinde in Verwaltungsgemeinschaft Zöschingen</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809773187</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+    <area>
+      <areaDesc>gemeindefreies Gebiet Schellenberger Forst</areaDesc>
+      <geocode>
+        <valueName>WARNCELLID</valueName>
+        <value>809172454</value>
+      </geocode>
+      <altitude>0.0</altitude>
+      <ceiling>1968.50394</ceiling>
+    </area>
+  </info>
+</alert>

@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ns0:kml xmlns:ns0="http://www.opengis.net/kml/2.2" xmlns:ns1="http://www.google.com/kml/ext/2.2">
+  <ns0:Document>
+    <ns0:name>CAP messages</ns0:name>
+    <ns0:Style id="downArrowIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/pal4/icon28.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="trafficIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/cabs.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="trafficWithAccidentIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/caution.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="globeIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/pal3/icon19.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+    </ns0:Style>
+    <ns0:Style id="gasStationIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/shapes/gas_stations.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+      <ns0:LineStyle>
+        <ns0:width>2</ns0:width>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="standardIcon">
+      <ns0:IconStyle>
+        <ns0:Icon>
+          <ns0:href>http://maps.google.com/mapfiles/kml/paddle/blu-diamond.png</ns0:href>
+        </ns0:Icon>
+      </ns0:IconStyle>
+      <ns0:LineStyle>
+        <ns0:width>2</ns0:width>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="transPoly">
+      <ns0:LineStyle>
+        <ns0:width>8</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>000000ff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transRedPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d0000ff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transGreenPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d00ff00</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transYellowPoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7d00ffff</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="transBluePoly">
+      <ns0:LineStyle>
+        <ns0:width>1.5</ns0:width>
+      </ns0:LineStyle>
+      <ns0:PolyStyle>
+        <ns0:color>7dff0000</ns0:color>
+      </ns0:PolyStyle>
+    </ns0:Style>
+    <ns0:Style id="BlackLine">
+      <ns0:LineStyle>
+        <ns0:width>6</ns0:width>
+        <ns0:color>ff000000</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="RedLine">
+      <ns0:LineStyle>
+        <ns0:width>5</ns0:width>
+        <ns0:color>ff0000ff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="OrangeLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff00a5ff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="YellowLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff00ffff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="DarkGreenLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ff009933</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="GreenLine">
+      <ns0:LineStyle>
+        <ns0:width>3</ns0:width>
+        <ns0:color>ff00ff00</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="WhiteLine">
+      <ns0:LineStyle>
+        <ns0:width>8</ns0:width>
+        <ns0:color>ffffffff</ns0:color>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Style id="TecLine">
+      <ns0:LineStyle>
+        <ns0:width>4</ns0:width>
+        <ns0:color>ffffffff</ns0:color>
+        <ns1:outerColor>dddddddd</ns1:outerColor>
+        <ns1:outerWidth>1.0</ns1:outerWidth>
+        <ns1:labelVisibility>1</ns1:labelVisibility>
+      </ns0:LineStyle>
+    </ns0:Style>
+    <ns0:Placemark>
+      <ns0:name>2.49.0.0.724.0.ES.181013204824.136237892</ns0:name>
+      <ns0:description>..headline = Orange Lluvia Warning issued from for España - Huesca 
+.....event = Orange Lluvia Warning
+.......area = Huesca
+
+ALERT -- (Component type=CAP_alert) 
+  Elements 
+  +identifier = 2.49.0.0.724.0.ES.181013204824.136237892
+  +sender     = www.aemet.es/es/eltiempo/prediccion/avisos
+  +sent       = 2018-10-13T20:48:24+00:00
+  +status     = Actual
+  +msgType    = Alert
+  +scope      = Public
+  INFO -- (Component type=CAP_info) 
+    Elements 
+    +language     = es-ES
+    +category     = Met
+    +event        = Orange Lluvia Warning
+    +responseType = Prepare
+    +urgency      = Immediate
+    +severity     = Severe
+    +certainty    = Likely
+    +effective    = 2018-10-14T10:00:00+00:00
+    +onset        = 2018-10-14T10:00:00+00:00
+    +expires      = 2018-10-14T21:59:59+00:00
+    +senderName   = AGENCIA ESTATAL DE METEOROLOGIA
+    +headline     = Orange Lluvia Warning issued from for España - Huesca 
+    +description  = ing Text!.
+    +instruction  = SEA CONSCIENTE de posibles inundaciones locales afectando a un pequeño número de propiedades, con alteraciones locales a actividades al aire libre. La conducción puede ser difícil debido a visibilidad reducida y a acuaplanin. 
+    +web          : 1 occurrence
+    Parameters 
+    +parameter
+        valueName = awareness_level
+        value     = 3; orange; Severe
+    +parameter
+        valueName = awareness_type
+        value     = 10; Rain
+    AREA -- (Component type=CAP_area) 
+      Elements 
+      +areaDesc = Huesca
+      +polygon  = 42.8420844463,-0.31123652627 42.9360347302,-0.736789786489 42.7229167814,-0.937336182881 42.4809409474,-0.895677204837 42.2654805148,-0.888675609755 42.0640306016,-0.770415211804 41.9584103724,-0.695463717933 41.7648067268,-0.5014944568 41.7106913921,-0.446982507223 41.376909844,-0.0700006055804 41.3496551339,-0.00657721410481 41.3531144709,0.105101912682 41.4059496581,0.320796937228 41.5253174368,0.428409877037 42.0935932625,0.686428520477 42.2523062356,0.735599025027 42.3451022695,0.750824181906 42.5969479612,0.762452273721 42.6904405707,0.663752860522 42.6944923604,0.483149983582 42.8420844463,-0.31123652627
+      Parameters 
+      +geocode
+          valueName = NUTS3
+          value     = ES241
+---- End ALERT -- (Component type=CAP_alert) ----
+</ns0:description>
+      <ns0:visibility>1</ns0:visibility>
+      <ns0:styleUrl>#transYellowPoly</ns0:styleUrl>
+      <ns0:Polygon>
+        <ns0:altitudeMode>clampToGround</ns0:altitudeMode>
+        <ns0:outerBoundaryIs>
+          <ns0:LinearRing>
+            <ns0:coordinates>
+		 -0.31123652627,42.8420844463 
+		 -0.736789786489,42.9360347302 
+		 -0.937336182881,42.7229167814 
+		 -0.895677204837,42.4809409474 
+		 -0.888675609755,42.2654805148 
+		 -0.770415211804,42.0640306016 
+		 -0.695463717933,41.9584103724 
+		 -0.5014944568,41.7648067268 
+		 -0.446982507223,41.7106913921 
+		 -0.0700006055804,41.376909844 
+		 -0.00657721410481,41.3496551339 
+		 0.105101912682,41.3531144709 
+		 0.320796937228,41.4059496581 
+		 0.428409877037,41.5253174368 
+		 0.686428520477,42.0935932625 
+		 0.735599025027,42.2523062356 
+		 0.750824181906,42.3451022695 
+		 0.762452273721,42.5969479612 
+		 0.663752860522,42.6904405707 
+		 0.483149983582,42.6944923604 
+		 -0.31123652627,42.8420844463 
+		</ns0:coordinates>
+          </ns0:LinearRing>
+        </ns0:outerBoundaryIs>
+      </ns0:Polygon>
+    </ns0:Placemark>
+  </ns0:Document>
+</ns0:kml>
