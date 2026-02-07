@@ -1,4 +1,0 @@
-
-
-
-Length of file D:\work\BitBucket\eawstarterkit\sample_data\CAP_sample_data\CAP_evaluation_DE\03. Entwarnung - Gefahr im Gebiet durch Satellitenabsturz.cap = 83164

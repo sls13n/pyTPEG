@@ -1,4 +1,0 @@
-
-
-
-Length of file D:\work\BitBucket\eawstarterkit\sample_data\EAW_sample_data\37A12800D3492382.cap = 8120

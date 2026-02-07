@@ -1,4 +1,0 @@
-
-
-
-Length of file D:\work\BitBucket\eawstarterkit\sample_data\CAP_sample_data\CAP_evaluation_DE\05. Entwarnung - Gefahr durch abgestürzte Satellitenteile.cap = 7071
