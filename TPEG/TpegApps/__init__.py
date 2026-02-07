@@ -31,5 +31,6 @@ __all__ = ["TPEG_EAW",
            "TPEG_EAW_tables",
            "TPEG_TEC",
            "TPEG_TEC_tables",
-           "TPEG_SNI"
+           "TPEG_SNI",
+           "TPEG_TFP"
            ]
